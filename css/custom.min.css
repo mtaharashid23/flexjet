@@ -2,13 +2,39 @@
 /* Icons */
 @import url("https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css");
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
-	--white: #fff;
-	--black: #000;
-	--primary: #ff0000;
-	--secondary: #333333;
+	/* === Fonts === */
+	--font-heading: "Playfair Display", serif;
+	--font-body: "Lato", sans-serif;
+
+	/* === Primary Colors === */
+	--color-primary: #1a1a1a;
+	/* Main heading/text color */
+	--color-accent: #b63e2b;
+	/* Highlighted text (e.g., VESTIBULUM) */
+	--color-button: #000000;
+	/* CTA button background */
+
+	/* === Backgrounds === */
+	--color-bg-light: #ffffff;
+	/* General background */
+	--color-bg-sky: #cfe2f3;
+	/* Hero section sky gradient start */
+	--color-bg-footer: #0e0e0e;
+	/* Footer background */
+
+	/* === Text Colors === */
+	--color-text-dark: #1a1a1a;
+	/* Main dark text */
+	--color-text-light: #ffffff;
+	/* Light text (e.g., footer text) */
+
+	/* === Additional Grays (Optional use) === */
+	--color-gray-100: #f5f5f5;
+	--color-gray-300: #dcdcdc;
+	--color-gray-600: #999999;
 }
 
 ::selection {
@@ -23,7 +49,6 @@
 	box-sizing: border-box;
 	text-decoration: none !important;
 	list-style-type: none;
-	font-family: "Poppins", sans-serif;
 	overflow-wrap: break-word;
 }
 
@@ -34,6 +59,9 @@ html {
 
 body {
 	overflow-x: clip;
+	font-family: var(--font-body);
+	background: var(--color-bg-light);
+	color: var(--color-text-dark);
 }
 
 a,
@@ -52,10 +80,18 @@ figure {
 	margin-bottom: 0;
 }
 
+h1,
+h2,
+h3 {
+	font-family: var(--font-heading);
+	color: var(--color-primary);
+}
+
 p {
-	font-size: 1.125rem;
+	font-size: 1.25rem;
 	font-weight: 500;
 	line-height: 1.75;
+	color: #575757cc;
 }
 
 section {
@@ -104,12 +140,13 @@ html.lenis body {
 .themeBtn {
 	width: fit-content;
 	display: block;
-	background-color: var(--primary);
-	color: var(--white);
+	background: var(--color-button);
+	color: var(--color-text-light);
 	font-size: 1rem;
-	font-weight: 500;
+	font-weight: 600;
 	text-transform: capitalize;
-	padding: 0.75rem 2.25rem;
+	padding: 1.125em 2.75em;
+	border-radius: 3.125rem;
 }
 
 .themeBtn:hover {
@@ -156,117 +193,140 @@ html.lenis body {
 	object-fit: cover;
 }
 
-.header-main__nav li a {
-	color: var(--white);
-	font-size: 1rem;
-	font-weight: 500;
-	padding: 0.35rem 0.25rem;
-	margin: 0 1rem;
-	text-transform: capitalize;
-	position: relative;
-}
-
-.header-main__nav li a::after {
-	content: "";
-	width: 0;
-	height: 2px;
-	background-color: var(--primary);
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	transition: all 300ms ease-in-out;
-}
-
-.header-main__nav li a:hover::after,
-.header-main__nav li a.active::after {
-	width: 100%;
-	right: auto;
-	left: 0;
+.header-main__logo h3 {
+	font-size: 3rem;
+	color: var(--color-bg-light);
+	text-transform: uppercase;
 }
 
 /* BANNER */
-.banner {
-	height: 1080px;
-	padding: 0;
+.main_banner {
+	height: 100vh;
+	background: url("../images/new-frame/frame_0001.jpeg") no-repeat center center/cover;
 }
 
-.bannerSlider .bannerImg {
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.banner h1 {
-	font-size: 5rem;
-	font-weight: bold;
-	text-transform: uppercase;
-	line-height: 1;
-	color: var(--white);
-	margin: 0;
-}
-
-.banner p {
-	font-size: 1.5625rem;
-	font-weight: 500;
-	line-height: 1.2;
-	color: var(--white);
-	margin-top: 1rem;
-}
-
-.bannerSlider .swiper-pagination {
-	width: fit-content;
-	bottom: 8rem;
-	left: 18rem;
-}
-
-.bannerSlider .swiper-button-prev,
-.bannerSlider .swiper-button-next {
-	width: 4.35rem;
-	height: 4.35rem;
-	font-size: 1rem;
-	color: var(--white);
-	display: inline-grid;
-	place-items: center;
-	border-radius: 50%;
-	background-color: rgba(255, 255, 255, 0.28);
+.main_banner_content {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	z-index: 1;
-	cursor: pointer;
-	transition: 0.3s ease-in-out;
 }
 
-.bannerSlider .swiper-button-next {
-	right: 1rem;
+.main_banner_content h1 {
+	color: var(--color-text-light);
+	font-size: 4.5rem;
+	text-transform: uppercase;
+	font-weight: 800;
 }
 
-.bannerSlider .swiper-button-prev {
-	left: 1rem;
+.main_banner_content h2 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--color-bg-light);
 }
 
-.bannerSlider .swiper-button-next:hover,
-.bannerSlider .swiper-button-prev:hover {
-	background: var(--white);
-	color: var(--black);
+/* cta_section */
+.cta_content h2 {
+	font-size: 5.45rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 
-.bannerSlider .swiper-pagination-bullet {
-	height: 12px;
-	width: 12px;
-	display: inline-block;
-	margin: 0 0.5rem !important;
-	opacity: 1;
-	border: 1px solid var(--white);
-	background: transparent;
+.cta_content>h2 {
+	margin-bottom: 2.5rem;
 }
 
-.bannerSlider .swiper-pagination-bullet-active {
-	background: var(--white);
+.circular-logo-wrap {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+	height: 100%;
+	margin-top: -.5rem;
+}
+
+.circular-logo {
 	position: relative;
+	width: 140px;
+	height: 160px;
+}
+
+.circular-logo svg {
+	width: 100%;
+	height: 100%;
+}
+
+.circular-logo svg text {
+	font-size: 2.67rem;
+	font-weight: 600;
+}
+
+.play-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 0;
+	height: 0;
+	border-left: 25px solid #d4433b;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+
+.cta_content_wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 2rem 0 0;
+}
+
+.cta_content_wrap p {
+	max-width: 65%;
+	margin: 0;
+}
+
+/* video_section */
+.video_card {
+	position: relative;
+}
+
+.video_card_main_img img {
+	width: 100%;
+	height: 700px;
+	object-fit: cover;
+	border-radius: 1.25rem;
+}
+
+.video_card_playbtn {
+	position: absolute;
+	bottom: 2rem;
+	left: 2rem;
+	background: #00000094;
+	border-radius: 3.125rem;
+	padding: .5em 1rem .5rem .5rem;
+}
+
+.video_card_playbtn span {
+	font-size: 1.125rem;
+	color: var(--color-text-light);
+}
+
+.video_card_playbtn .icon {
+	width: 40px;
+	aspect-ratio: 1;
+	background: var(--color-bg-light);
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+}
+
+.video_card_playbtn .icon i {
+	font-size: 1rem;
+	color: var(--color-accent);
+}
+
+.video_card_playbtn a {
+	display: flex;
+	align-items: center;
+	gap: .5em;
 }

@@ -3,32 +3,54 @@ include 'include/header.php' ?>
 
 
 <!-- BANNER START -->
-<section class="banner bannerSlider">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <div class="bannerImg" data-background="images/mainBnnr.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="bannerImg__content">
-                                <h1 data-swiper-parallax="-200">heading One</h1>
-                                <p data-swiper-parallax="-200">this is a paragraph.</p>
-                                <a href="#" class="themeBtn">Button</a>
-                            </div>
-                        </div>
-                    </div>
+<section class="main_banner">
+    <canvas id="sequence"></canvas>
+    <div class="container">
+        <div class="main_banner_content">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Touch the Sky</h2>
+                    <h1>Journey with OpulJets</h1>
                 </div>
             </div>
         </div>
-        <div class="swiper-slide">
-            <div class="bannerImg" data-background="images/mainBnnr.jpg">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="bannerImg__content">
-                                <h1 data-swiper-parallax="-200">heading One</h1>
-                                <p data-swiper-parallax="-200">this is a paragraph.</p>
-                                <a href="#" class="themeBtn">Button</a>
+    </div>
+</section>
+<!-- BANNER END -->
+
+<section class="cta_section padd-y">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="cta_content">
+                    <h2>Fly the opul way</h2>
+                    <div class="row algin-items-center">
+                        <div class="col-md-2">
+                            <div class="circular-logo-wrap">
+                                <div class="circular-logo">
+                                    <svg viewBox="0 0 200 200" class="rotating-circle">
+                                        <defs>
+                                            <path id="circlePath"
+                                                d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0" />
+                                        </defs>
+                                        <text font-family="Playfair Display, serif" fill="#000">
+                                            <textPath href="#circlePath" startOffset="0%">
+                                                • OPULJETS • OPULJETS
+                                            </textPath>
+                                        </text>
+                                    </svg>
+                                    <div class="play-icon"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10">
+                            <h2>Journey with OpulJets</h2>
+                            <div class="cta_content_wrap">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, praesentium qui quasi
+                                    eum hic rerum id doloribus libero ab iure?</p>
+                                <div>
+                                    <a href="" class="themeBtn">Get a Quote</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -36,10 +58,39 @@ include 'include/header.php' ?>
             </div>
         </div>
     </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
 </section>
-<!-- BANNER END -->
+
+<section class="video_section padd-y">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="video_card">
+                    <figure class="video_card_main_img">
+                        <img src="images/video-img-main.webp" alt="image" class="img-fluid">
+                    </figure>
+                    <div class="video_card_playbtn">
+                        <a href="">
+                            <span class="icon"><i class="fas fa-play"></i></span>
+                            <span>Play Video</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="padd-y"></section>
+<section class="padd-y"></section>
+<section class="padd-y"></section>
+<section class="padd-y"></section>
+<section class="padd-y"></section>
+<section class="padd-y"></section>
+<section class="padd-y"></section>
+<section class="padd-y"></section>
+<section class="padd-y"></section>
+<section class="padd-y"></section>
+<section class="padd-y"></section>
+<section class="padd-y"></section>
 
 <?php include 'include/footer.php' ?>

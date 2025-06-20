@@ -23,10 +23,10 @@ include 'include/header.php' ?>
         <div class="row">
             <div class="col-12">
                 <div class="cta_content">
-                    <h2>Fly the opul way</h2>
+                    <h2 data-aos="fade-left">Fly the opul way</h2>
                     <div class="row algin-items-center">
                         <div class="col-md-2">
-                            <div class="circular-logo-wrap">
+                            <div class="circular-logo-wrap magnetic" data-strength="25" data-strength-text="15" data-aos="fade-up">
                                 <div class="circular-logo">
                                     <svg viewBox="0 0 200 200" class="rotating-circle">
                                         <defs>
@@ -44,12 +44,17 @@ include 'include/header.php' ?>
                             </div>
                         </div>
                         <div class="col-md-10">
-                            <h2>Journey with OpulJets</h2>
+                            <h2 data-aos="fade-right">Journey with OpulJets</h2>
                             <div class="cta_content_wrap">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, praesentium qui quasi
+                                <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, praesentium qui quasi
                                     eum hic rerum id doloribus libero ab iure?</p>
-                                <div>
-                                    <a href="" class="themeBtn">Get a Quote</a>
+                                <div data-aos="fade-up">
+                                    <a href="" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                                        <div class="btn-fill"></div>
+                                        <span class="btn-text">
+                                            <span class="btn-text-inner change">Get a Quote</span>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +109,7 @@ include 'include/header.php' ?>
             <div class="col-md-10">
                 <div class="experience_content">
                     <h5>Personalised Flight Experience</h5>
-                    <h3 scrub-each-word="" text-split="">
+                    <h3 class="experience_heading" text-split scrub-each-word>
                         VESTIBULUM MASSA EX, IACULIS QUIS MASSA VITAE, PRETIUM VIVERRA NULLA. DUIS EGET
                         ANTE ID TELLUS VOLUTPAT PHARETRA CONDIMENTUM VITAE NISI. DONEC BIBENDUM MALESUADA TELLUS IN
                         TINCIDUNT. MAECENAS EGESTAS DAPIBUS ORCI.
@@ -128,7 +133,12 @@ include 'include/header.php' ?>
                 </div>
                 <div class="col-md-4">
                     <div class="d-flex justify-content-md-end">
-                        <a href="" class="themeBtn">Get A Quote</a>
+                        <a href="" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                            <div class="btn-fill"></div>
+                            <span class="btn-text">
+                                <span class="btn-text-inner change">Get a Quote</span>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -177,11 +187,35 @@ include 'include/header.php' ?>
     </div>
 </section>
 
-<section class="feel_section padd-y">
-    <h2 class="feel_title">Feel The Impression</h2>
+<section class="feel_section padd-y hover-rotate-cursor">
+    <div class="custom-cursor-fill custom-cursor-fill-rotating no-select"><svg width="222" height="219"
+            viewBox="0 0 222 219" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M9.92529 157.184L19.2237 136.443L0 124.059L15.332 107.148L0.944644 89.5061L20.8126 78.0891L12.6547 56.9125L35.1085 52.0997L34.0028 29.4685L56.8484 31.7476L62.8776 9.86312L83.8905 18.9881L96.4625 0L113.575 15.086L131.484 0.858976L143.011 20.4471L164.49 12.358L169.318 34.5058L192.259 33.3663L189.908 55.9198L212.079 61.8161L202.785 82.5653L222 94.9449L206.672 111.852L221.06 129.498L201.196 140.907L209.345 162.092L186.891 166.896L188.01 189.536L165.147 187.257L159.118 209.146L138.118 200.016L125.538 219L108.429 203.914L90.5291 218.145L78.9888 198.553L57.5188 206.646L52.6867 184.503L29.7454 185.642L32.0874 163.089L9.92529 157.184Z"
+                fill="#1C1D23" />
+        </svg>
+    </div>
+    <div class="custom-cursor-span no-select">
+        <div class="custom-cursor-inner custom-cursor-span-home">
+            <span>
+                <div>Alfred<br> Showreel</div>
+            </span>
+        </div>
+    </div>
+    <div class="marquee-group" data-scroll>
+        <div class="marquee" data-marquee-direction="left" data-marquee-status="normal" data-marquee-speed="20">
+            <div class="marquee-scroll" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
+                <div class="marquee-content">
+                    <span class="word">Feel The Impression</span><span class="divider">-</span>
+                    <span class="word">Feel The Impression</span><span class="divider">-</span>
+                    <span class="word">Feel The Impression</span><span class="divider">-</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="greener_section padd-y">
+<section class="greener_section padd-y hover-rotate-cursor">
     <div class="container">
         <div class="greener_title text-center">
             <h3 class="heading">A Greener Way To Fly</h3>
@@ -195,7 +229,12 @@ include 'include/header.php' ?>
             <div class="col-md-6">
                 <div class="greener_content">
                     <div>
-                        <a href="" class="themeBtn">Sustainability</a>
+                        <a href="" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                            <div class="btn-fill"></div>
+                            <span class="btn-text">
+                                <span class="btn-text-inner change">Sustainability</span>
+                            </span>
+                        </a>
                     </div>
                     <h4>Preserve the environment</h4>
                     <p>
@@ -208,20 +247,29 @@ include 'include/header.php' ?>
     </div>
 </section>
 
-<section class="opuljet_section">
-    <div class="opuljet_title">
-        <h3>opuljet</h3>
-        <h3>opuljet</h3>
-        <h3>opuljet</h3>
-        <h3>opuljet</h3>
+<section class="opuljet_section hover-rotate-cursor">
+    <div class="marquee-group" data-scroll>
+        <div class="marquee" data-marquee-direction="left" data-marquee-status="normal" data-marquee-speed="20">
+            <div class="marquee-scroll" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
+                <div class="marquee-content">
+                    <span class="word">opuljet</span><span class="divider">-</span>
+                    <span class="word">opuljet</span><span class="divider">-</span>
+                    <span class="word">opuljet</span><span class="divider">-</span>
+                    <span class="word">opuljet</span><span class="divider">-</span>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
 
 <section class="dropline_section padd-y">
+    <figure class="dropline_img right">
+        <img src="images/dropline-right.png" alt="image" class="img-fluid">
+    </figure>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="dropline_content text-center">
                     <h3 class="heading">
                         Drop Us A Line
@@ -231,18 +279,26 @@ include 'include/header.php' ?>
                         deserunt vel beatae possimus assumenda aperiam aliquid.
                     </p>
                     <div>
-                        <a href="" class="themeBtn mx-auto">Let's Talk</a>
+                        <a href="" class="themeBtn magnetic mx-auto" data-strength="25" data-strength-text="15">
+                            <div class="btn-fill"></div>
+                            <span class="btn-text">
+                                <span class="btn-text-inner change">Let's Talk</span>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <figure class="dropline_img left">
+        <img src="images/dropline-left.png" alt="image" class="img-fluid">
+    </figure>
 </section>
 
 <section class="customer_section padd-y">
     <div class="container-fluid p-0">
         <div class="row justify-content-center">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div class="customer_content text-center">
                     <h3 class="heading">
                         What Our Customers Say About Us
@@ -366,7 +422,7 @@ include 'include/header.php' ?>
                 </div>
             </div>
             <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>            
+            <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
         </div>
     </div>

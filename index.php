@@ -1,4 +1,5 @@
-<?php include 'include/header.php' ?>
+<?php $logowhite = 'img-fluid logo-white';
+include 'include/header.php' ?>
 
     <!-- BANNER START -->
     <section class="main_banner">

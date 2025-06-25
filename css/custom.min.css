@@ -531,7 +531,7 @@ html.lenis body {
 }
 
 .menulist li a:hover {
-	color: var(--color-primary);
+	color: var(--color-accent);
 }
 
 .isopen .menulist {
@@ -1138,6 +1138,7 @@ html.lenis body {
 .inner_banner_content h1 {
 	font-size: 4rem;
 	color: var(--color-bg-light);
+	text-transform: uppercase;
 }
 
 .inner_banner_img>img {
@@ -1198,6 +1199,7 @@ html.lenis body {
 .programs_section .row:not(:last-child) {
 	margin-bottom: 4.5rem;
 }
+
 .programs_content h3 {
 	font-size: 2.125rem;
 	font-weight: 600;
@@ -1219,7 +1221,7 @@ html.lenis body {
 .programs_list_text h4 {
 	font-size: 1rem;
 	font-weight: 600;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	color: var(--color-accent);
 	margin: 0 0 1.25rem;
 }
@@ -1236,4 +1238,51 @@ html.lenis body {
 
 .programs_list_text p+p {
 	margin: .75rem 0 0;
+}
+
+/* contact_section */
+.contact_wrapper {
+	background: var(--color-bg-light);
+	box-shadow: 0px 0px 6px #000000;
+	border-radius: 3.125rem;
+	padding: 3.125em;
+}
+
+.contact_title h3 {
+	font-size: 2.125rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+
+.contact_form label {
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--color-primary);
+	text-transform: uppercase;
+}
+
+.contact_form :is(input, select, textarea) {
+	display: block;
+	width: 100%;
+	background: var(--color-bg-light);
+	border-width: 0 0 1px 0;
+	padding: .5em 0;
+	margin: 0 0 1.25em;
+	font-size: 1rem;
+	color: var(--color-primary);
+	outline: none;
+}
+
+.contact_form :is(input, select, textarea)::placeholder {
+	color: var(--color-primary);
+}
+
+.contact_form .themeBtn {
+	margin: 1.75rem auto 0;
+	border: none;
+	outline: none;
+}
+
+.logo-white {
+	filter: brightness(0) invert(1);
 }

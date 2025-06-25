@@ -24,7 +24,7 @@
                 <div class="programs_content">
                     <h3>fractional jet ownership</h3>
                     <p>
-                        The pinnacle of the Flexjet experience. Secure the main benefits of whole aircraft ownership
+                        The pinnacle of the Air Affair experience. Secure the main benefits of whole aircraft ownership
                         without a single one of the burdens. Unlock consistency, exceptional service and guaranteed
                         access for a predictable cost and approachable obligation.
                     </p>
@@ -109,7 +109,7 @@
                 <div class="programs_content">
                     <h3>jet card</h3>
                     <p>
-                        An enticing way to experience the Flexjet difference first-hand. This convenient and exploratory
+                        An enticing way to experience the Air Affair difference first-hand. This convenient and exploratory
                         debit-style model is meant for new entrants to the private aviation space.
                     </p>
                     <ul class="programs_list">
@@ -141,7 +141,7 @@
             </div>
         </div>
         <div class="title pb-5">
-            <h2 class="heading text-center">FLEXJET EXCLUSIVE PROGRAM ENHANCEMENTS</h2>
+            <h2 class="heading text-center">Air Affair EXCLUSIVE PROGRAM ENHANCEMENTS</h2>
         </div>
         <div class="row align-items-center flex-row-reverse">
             <div class="col-md-6">
@@ -153,7 +153,7 @@
                 <div class="programs_content">
                     <h3>unlimited access</h3>
                     <p>
-                        As the exclusive fractional home of the Gulfstream G650, only Flexjet offers this innovative way
+                        As the exclusive fractional home of the Gulfstream G650, only Air Affair offers this innovative way
                         to utilize one of the industry’s most capable private jets. With a single fractional or lease
                         share, this program grants you unrestricted use of our entire fleet at attractive interchange
                         rates.
@@ -164,7 +164,7 @@
                                 <h4>FEATURED ADVANTAGES</h4>
                                 <p>Right-size your aircraft and maximize the efficiency of each trip</p>
                                 <p>Fly friends, family members and associates on any jet in our fleet</p>
-                                <p>Overall, the flexibility to unlock the entire Flexjet fleet</p>
+                                <p>Overall, the flexibility to unlock the entire Air Affair fleet</p>
                             </div>
                         </li>
                     </ul>
@@ -182,7 +182,7 @@
                 <div class="programs_content">
                     <h3>PRIVATE HELICOPTERS</h3>
                     <p>
-                        The cure for the common commute. Flexjet helicopters are the epitome of airborne excellence and
+                        The cure for the common commute. Air Affair helicopters are the epitome of airborne excellence and
                         VIP travel, simultaneously offering unparalleled reliability, luxury and superior performance.
                         Our helicopters come with the same personalized, concierge-level service as our private jets.
                     </p>

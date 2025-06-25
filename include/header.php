@@ -15,7 +15,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg header-main p-0">
                 <a class="navbar-brand header-main__logo" href="index.php">
-                    <img src="images/logo.png" alt="image" class="img-fluid">
+                    <img src="images/logo.png" alt="image" class="<?php echo isset($logowhite) ? $logowhite : 'img-fluid';  ?>">
                 </a>
                 <ul>
                     <li>
@@ -31,10 +31,12 @@
         </div>
         <menu class="menulist">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>                
-                <li><a href="#">Contact</a></li>
+                <li><a href="fleet.php">Aircraft</a></li>
+                <li><a href="programs.php">Programs</a></li>
+                <li><a href="why-air-affair.php">Why Air Affair</a></li>
+                <li><a href="lifestyle.php">Lifestyle</a></li>
+                <li><a href="resources.php">Resources</a></li>
+                <li><a href="inquire.php">Inquire</a></li>
             </ul>
         </menu>
     </header>

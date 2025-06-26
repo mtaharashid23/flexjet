@@ -519,6 +519,7 @@ html.lenis body {
 	margin: 0;
 	z-index: 9;
 	transition: 0.5s ease;
+	text-align: center;
 }
 
 .menulist li+li {
@@ -526,8 +527,14 @@ html.lenis body {
 }
 
 .menulist li a {
-	font-size: 1.5rem;
+	font-size: clamp(1.5rem, 5vw + 1rem, 3.125rem);
+	font-weight: 600;
 	color: var(--color-text-light);
+	text-transform: uppercase;
+	background: transparent;
+	padding: .05em 1em;
+	width: 100%;
+	border-radius: 1.25em;
 }
 
 .menulist li a:hover {
@@ -541,7 +548,7 @@ html.lenis body {
 /* BANNER */
 .main_banner {
 	height: 100vh;
-	background: url("../images/new-frame/frame_0001.jpeg") no-repeat center center/cover;
+	background: url("../images/new-frame/frame_0001.webp") no-repeat center center/cover;
 	overflow: unset;
 }
 
@@ -1187,6 +1194,7 @@ html.lenis body {
 .fleet_content h3 {
 	font-size: 3.125rem;
 	margin: 0;
+	text-transform: uppercase;
 }
 
 .fleet_content h4 {

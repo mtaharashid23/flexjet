@@ -1,4 +1,5 @@
-<?php include 'include/header.php' ?>
+<?php $title = "Aircraft";
+include 'include/header.php' ?>
 
 <section class="inner_banner">
     <figure class="inner_banner_img">
@@ -17,32 +18,24 @@
             <ul class="nav nav-pills" id="pills-tab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="pills-one-tab" data-toggle="pill" href="#pills-one" role="tab"
-                        aria-controls="pills-one" aria-selected="true">GULFSTREAM G650</a>
+                        aria-controls="pills-one" aria-selected="true">Hawker 850XP</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="pills-two-tab" data-toggle="pill" href="#pills-two" role="tab"
-                        aria-controls="pills-two" aria-selected="false">GULFSTREAM G450</a>
+                        aria-controls="pills-two" aria-selected="false">Citation XLS+</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="pills-three-tab" data-toggle="pill" href="#pills-three" role="tab"
-                        aria-controls="pills-three" aria-selected="false">PRAETOR 600</a>
+                        aria-controls="pills-three" aria-selected="false">falcon 2000</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="pills-four-tab" data-toggle="pill" href="#pills-four" role="tab"
-                        aria-controls="pills-four" aria-selected="false">CHALLENGER 350 / 3500</a>
+                        aria-controls="pills-four" aria-selected="false">Beechcraft Premier 1</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="pills-five-tab" data-toggle="pill" href="#pills-five" role="tab"
-                        aria-controls="pills-five" aria-selected="false">PRAETOR 500</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="pills-six-tab" data-toggle="pill" href="#pills-six" role="tab"
-                        aria-controls="pills-six" aria-selected="false">PHENOM 300</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="pills-seven-tab" data-toggle="pill" href="#pills-seven" role="tab"
-                        aria-controls="pills-seven" aria-selected="false">SIKORSKY S-76</a>
-                </li>
+                        aria-controls="pills-five" aria-selected="false">Airbus H125</a>
+                </li>                
             </ul>
         </div>
         <div class="tab-content fleet_tab_content mt-5" id="pills-tabContent">
@@ -55,7 +48,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="fleet_content text-center">
-                            <h3>GULFSTREAM G650</h3>
+                            <h3>Hawker 850XP</h3>
                             <h4>A TITAN OF INDUSTRY</h4>
                             <a href="" class="themeBtn mx-auto">ACCESS ULTRA-LONG-RANGE</a>
                         </div>
@@ -71,7 +64,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="fleet_content text-center">
-                            <h3>GULFSTREAM G450</h3>
+                            <h3>Citation XLS+</h3>
                             <h4>ENHANCING ENTERPRISING OPPORTUNITIES</h4>
                             <a href="" class="themeBtn mx-auto">ACCESS LARGE CABIN</a>
                         </div>
@@ -87,7 +80,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="fleet_content text-center">
-                            <h3>PRAETOR 600</h3>
+                            <h3>falcon 2000</h3>
                             <h4>AN ASCENDING PATHFINDER PEDIGREE</h4>
                             <a href="" class="themeBtn mx-auto">ACCESS SUPER-MIDSIZE</a>
                         </div>
@@ -103,7 +96,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="fleet_content text-center">
-                            <h3>CHALLENGER 350 / 3500</h3>
+                            <h3>Beechcraft Premier 1</h3>
                             <h4>TRUE EXECUTIVE EVOLUTION</h4>
                             <a href="" class="themeBtn mx-auto">ACCESS SUPER-MIDSIZE</a>
                         </div>
@@ -119,7 +112,7 @@
                     </div>
                     <div class="col-md-5">
                         <div class="fleet_content text-center">
-                            <h3>PRAETOR 500</h3>
+                            <h3>Airbus H125</h3>
                             <h4>AN EXPLORER OF ENDLESS HORIZONS</h4>
                             <a href="" class="themeBtn mx-auto">ACCESS MIDSIZE</a>
                         </div>

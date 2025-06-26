@@ -31,12 +31,14 @@
         </div>
         <menu class="menulist">
             <ul>
+                <!-- <li><a href="about.php">About Us</a></li> -->
+                <li><a href="services.php">Services</a></li>
                 <li><a href="fleet.php">Aircraft</a></li>
                 <li><a href="programs.php">Programs</a></li>
-                <li><a href="why-air-affair.php">Why Air Affair</a></li>
+                <!-- <li><a href="why-air-affair.php">Why Air Affair</a></li>
                 <li><a href="lifestyle.php">Lifestyle</a></li>
-                <li><a href="resources.php">Resources</a></li>
-                <li><a href="inquire.php">Inquire</a></li>
+                <li><a href="resources.php">Resources</a></li> -->
+                <li><a href="inquire.php">Contact Us</a></li>
             </ul>
         </menu>
     </header>

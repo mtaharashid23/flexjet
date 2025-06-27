@@ -43,7 +43,7 @@
         </div>
         <div class="tab-content fleet_tab_content mt-5" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <figure>
                             <img src="images/about-img1.webp" alt="image" class="img-fluid">
@@ -60,99 +60,302 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
-                <div class="row justify-content-center align-items-center flex-row-reverse">
-                    <div class="col-md-5">
-                        <figure class="fleet_img">
-                            <img src="images/fleet-img2.webp" alt="image" class="img-fluid">
+                <div class="row align-items-center flex-row-reverse">
+                    <div class="col-md-6">
+                        <figure class="about_img">
+                            <img src="images/about-img1.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
-                    <div class="col-md-5">
-                        <div class="fleet_content text-center">
-                            <h3>Citation XLS+</h3>
-                            <h4>ENHANCING ENTERPRISING OPPORTUNITIES</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS LARGE CABIN</a>
+                    <div class="col-md-6">
+                        <div class="about_content">
+                            <h3>Vision</h3>
+                            <p>
+                                "To Be The Most Preferred Personal Charter Airline Promising Customized Luxury For An
+                                Enjoyable Guest Experience."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="about_content">
+                            <h3>ABOUT US</h3>
+                            <p>
+                                Club One Air is one of India's oldest and largest air charter company. We own a fleet of
+                                jets that cater to corporate India and individuals with exclusive taste. Our
+                                professionals with extensive aviation experience provide unparalleled safety, world
+                                class ground and inflight services. Our pilots have considerable experience in the type
+                                of aircraft we operate. Club One Air is the only Indian company with operational base in
+                                Delhi, Mumbai and Vishakhapatnam.
+                            </p>
+                            <p>
+                                Our constant endeavor focused on service and safety has made us a household name amongst
+                                CEO's of fortune 500 companies, heads of state, film stars and world leaders.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <figure class="about_img">
+                            <img src="images/about-img2.webp" alt="image" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <figure class="about_img">
+                            <img src="images/about-img2.webp" alt="image" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="col-12">
+                        <div class="about_content">
+                            <h4>We look forward to your patronage with a commitment to offer you a world-class
+                                experience.</h4>
+                            <p>
+                                We look forward to your patronage with a commitment to offer you a world-class
+                                experience. Club one Air stands for safety, speed, courtesy, proficiency and well being.
+                                These values have placed Club One Air into the elite list of top-notch charter aviation
+                                companies worldwide.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-md-5">
-                        <figure class="fleet_img">
-                            <img src="images/fleet-img3.webp" alt="image" class="img-fluid">
-                        </figure>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="team_card">
+                            <figure class="team_card_img">
+                                <img src="images/team-img1.webp" alt="image" class="img-fluid">
+                            </figure>
+                            <div class="team_card_content">
+                                <h4>Title Here</h4>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-5">
-                        <div class="fleet_content text-center">
-                            <h3>falcon 2000</h3>
-                            <h4>AN ASCENDING PATHFINDER PEDIGREE</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS SUPER-MIDSIZE</a>
+                    <div class="col-md-3">
+                        <div class="team_card">
+                            <figure class="team_card_img">
+                                <img src="images/team-img1.webp" alt="image" class="img-fluid">
+                            </figure>
+                            <div class="team_card_content">
+                                <h4>Title Here</h4>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="team_card">
+                            <figure class="team_card_img">
+                                <img src="images/team-img1.webp" alt="image" class="img-fluid">
+                            </figure>
+                            <div class="team_card_content">
+                                <h4>Title Here</h4>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="team_card">
+                            <figure class="team_card_img">
+                                <img src="images/team-img1.webp" alt="image" class="img-fluid">
+                            </figure>
+                            <div class="team_card_content">
+                                <h4>Title Here</h4>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
-                <div class="row justify-content-center align-items-center flex-row-reverse">
-                    <div class="col-md-5">
-                        <figure class="fleet_img">
-                            <img src="images/fleet-img4.webp" alt="image" class="img-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure>
+                            <img src="images/about-img1.png" alt="image" class="img-fluid">
                         </figure>
                     </div>
-                    <div class="col-md-5">
-                        <div class="fleet_content text-center">
-                            <h3>Beechcraft Premier 1</h3>
-                            <h4>TRUE EXECUTIVE EVOLUTION</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS SUPER-MIDSIZE</a>
+                    <div class="col-md-6">
+                        <div class="about_content">
+                            <h3>SAFFETY & EFFICENCY</h3>
+                            <p>
+                                An important aspect in air travel is safety while traveling which is ensured by air
+                                charter companies like Club One Air. Air charter services take care of the security and
+                                privacy issues. Private aircraft charter is less likely to experience delays than
+                                commercial airlines. While they cannot help being grounded by weather or some airport
+                                issues, small private planes are less likely to experience any sort of baggage or
+                                maintenance issues.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-fivee-tab">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-md-5">
-                        <figure class="fleet_img">
-                            <img src="images/fleet-img5.webp" alt="image" class="img-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="about_content">
+                            <h3>PRIVACY MATTERS</h3>
+                            <p>
+                                We understand the special needs of the elite travellers on board. You can relax in a
+                                comfortable & relaxed atmosphere, access a separate office where you are able to fully
+                                concentrate on work and prepare for your conference.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure>
+                            <img src="images/about-img1.png" alt="image" class="img-fluid">
                         </figure>
                     </div>
-                    <div class="col-md-5">
-                        <div class="fleet_content text-center">
-                            <h3>Airbus H125</h3>
-                            <h4>AN EXPLORER OF ENDLESS HORIZONS</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS MIDSIZE</a>
+                    <div class="col-md-6">
+                        <div class="about_content">
+                            <h3>SECURITY CHECKS</h3>
+                            <p>
+                                In house Maintenance & Engineering
+                            </p>
+                            <p>
+                                Aircrafts are maintained by qualified Engineering Wing
+                            </p>
+                            <p>
+                                Incident and Accident Free Travel Record
+                            </p>
+                            <p>
+                                Safety Checks done by HART & WYVERN Aviation
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="">
+                            <h3>AIRPORT SERVICES</h3>
+                        </div>
+                        <div class="airport_service">
+                            <div class="airport_service_card">
+                                <figure class="airport_service_img">
+                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
+                                </figure>
+                                <div class="airport_service_content">
+                                    <h5>Welcome at Arrival Bt Airport</h5>
+                                </div>
+                            </div>
+                            <div class="airport_service_card">
+                                <figure class="airport_service_img">
+                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
+                                </figure>
+                                <div class="airport_service_content">
+                                    <h5>Welcome at Arrival Bt Airport</h5>
+                                </div>
+                            </div>
+                            <div class="airport_service_card">
+                                <figure class="airport_service_img">
+                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
+                                </figure>
+                                <div class="airport_service_content">
+                                    <h5>Welcome at Arrival Bt Airport</h5>
+                                </div>
+                            </div>
+                            <div class="airport_service_card">
+                                <figure class="airport_service_img">
+                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
+                                </figure>
+                                <div class="airport_service_content">
+                                    <h5>Welcome at Arrival Bt Airport</h5>
+                                </div>
+                            </div>
+                            <div class="airport_service_card">
+                                <figure class="airport_service_img">
+                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
+                                </figure>
+                                <div class="airport_service_content">
+                                    <h5>Welcome at Arrival Bt Airport</h5>
+                                </div>
+                            </div>
+                            <div class="airport_service_card">
+                                <figure class="airport_service_img">
+                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
+                                </figure>
+                                <div class="airport_service_content">
+                                    <h5>Welcome at Arrival Bt Airport</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-six" role="tabpanel" aria-labelledby="pills-sixe-tab">
-                <div class="row justify-content-center align-items-center flex-row-reverse">
-                    <div class="col-md-5">
-                        <figure class="fleet_img">
-                            <img src="images/fleet-img6.webp" alt="image" class="img-fluid">
+                <div>
+                    <h3>The largest charter fleet in INDIA</h3>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-12">
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <img src="images/about-img1.png" alt="image" class="img-fluid">
                         </figure>
                     </div>
-                    <div class="col-md-5">
-                        <div class="fleet_content text-center">
-                            <h3>PHENOM 300</h3>
-                            <h4>PERFECTLY ADAPTED FOR ADVENTURE</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS LIGHT CABIN</a>
+                    <div class="col-md-6">
+                        <div class="about_content">
+                            <h3>OUR FLEET</h3>
+                            <p>
+                                Club One Air has a fleet of 8 aircrafts which includes 2 Hawker 800XP, 2 Hawker 900XP, 1
+                                Hawker 750, 1 Cessna Citation CJ2, 1 Cessna Citation CJ3 and 1 Cessna Citation XLS.
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane fade" id="pills-seven" role="tabpanel" aria-labelledby="pills-sevenee-tab">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-md-5">
-                        <figure class="fleet_img">
-                            <img src="images/fleet-img7.webp" alt="image" class="img-fluid">
+                <div class="row align-items-center flex-row-reverse">
+                    <div class="col-12">
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <img src="images/about-img1.png" alt="image" class="img-fluid">
                         </figure>
                     </div>
-                    <div class="col-md-5">
-                        <div class="fleet_content text-center">
-                            <h3>SIKORSKY S-76</h3>
-                            <h4>TREND SETTING PERFORMANCE & PRECISION</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS HELICOPTER</a>
+                    <div class="col-md-6">
+                        <div class="about_content">
+                            <h3>OUR FLEET</h3>
+                            <p>
+                                Club One Air has a fleet of 8 aircrafts which includes 2 Hawker 800XP, 2 Hawker 900XP, 1
+                                Hawker 750, 1 Cessna Citation CJ2, 1 Cessna Citation CJ3 and 1 Cessna Citation XLS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-12">
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <img src="images/about-img1.png" alt="image" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about_content">
+                            <h3>OUR FLEET</h3>
+                            <p>
+                                Club One Air has a fleet of 8 aircrafts which includes 2 Hawker 800XP, 2 Hawker 900XP, 1
+                                Hawker 750, 1 Cessna Citation CJ2, 1 Cessna Citation CJ3 and 1 Cessna Citation XLS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center flex-row-reverse">
+                    <div class="col-12">
+                    </div>
+                    <div class="col-md-6">
+                        <figure>
+                            <img src="images/about-img1.png" alt="image" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about_content">
+                            <h3>OUR FLEET</h3>
+                            <p>
+                                Club One Air has a fleet of 8 aircrafts which includes 2 Hawker 800XP, 2 Hawker 900XP, 1
+                                Hawker 750, 1 Cessna Citation CJ2, 1 Cessna Citation CJ3 and 1 Cessna Citation XLS.
+                            </p>
                         </div>
                     </div>
                 </div>

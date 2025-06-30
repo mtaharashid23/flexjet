@@ -45,7 +45,7 @@
             <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <figure>
+                        <figure class="about_img">
                             <img src="images/about-img1.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
@@ -63,7 +63,7 @@
                 <div class="row align-items-center flex-row-reverse">
                     <div class="col-md-6">
                         <figure class="about_img">
-                            <img src="images/about-img1.webp" alt="image" class="img-fluid">
+                            <img src="images/about-img2.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-6">
@@ -98,12 +98,12 @@
                     </div>
                     <div class="col-md-6">
                         <figure class="about_img">
-                            <img src="images/about-img2.webp" alt="image" class="img-fluid">
+                            <img src="images/about-img3.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-6">
                         <figure class="about_img">
-                            <img src="images/about-img2.webp" alt="image" class="img-fluid">
+                            <img src="images/about-img4.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-12">
@@ -124,8 +124,8 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="team_card">
-                            <figure class="team_card_img">
-                                <img src="images/team-img1.webp" alt="image" class="img-fluid">
+                            <figure class="team_card_img about_img">
+                                <img src="images/about-img5.webp" alt="image" class="img-fluid">
                             </figure>
                             <div class="team_card_content">
                                 <h4>Title Here</h4>
@@ -135,8 +135,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="team_card">
-                            <figure class="team_card_img">
-                                <img src="images/team-img1.webp" alt="image" class="img-fluid">
+                            <figure class="team_card_img about_img">
+                                <img src="images/about-img5.webp" alt="image" class="img-fluid">
                             </figure>
                             <div class="team_card_content">
                                 <h4>Title Here</h4>
@@ -146,8 +146,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="team_card">
-                            <figure class="team_card_img">
-                                <img src="images/team-img1.webp" alt="image" class="img-fluid">
+                            <figure class="team_card_img about_img">
+                                <img src="images/about-img5.webp" alt="image" class="img-fluid">
                             </figure>
                             <div class="team_card_content">
                                 <h4>Title Here</h4>
@@ -157,8 +157,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="team_card">
-                            <figure class="team_card_img">
-                                <img src="images/team-img1.webp" alt="image" class="img-fluid">
+                            <figure class="team_card_img about_img">
+                                <img src="images/about-img5.webp" alt="image" class="img-fluid">
                             </figure>
                             <div class="team_card_content">
                                 <h4>Title Here</h4>
@@ -169,10 +169,10 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
-                        <figure>
-                            <img src="images/about-img1.png" alt="image" class="img-fluid">
+                        <figure class="about_img">
+                            <img src="images/about-img6.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-6">
@@ -201,10 +201,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row align-items-center flex-row-reverse">
                     <div class="col-md-6">
-                        <figure>
-                            <img src="images/about-img1.png" alt="image" class="img-fluid">
+                        <figure class="about_img">
+                            <img src="images/about-img6.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-6">
@@ -224,75 +224,18 @@
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="">
-                            <h3>AIRPORT SERVICES</h3>
-                        </div>
-                        <div class="airport_service">
-                            <div class="airport_service_card">
-                                <figure class="airport_service_img">
-                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
-                                </figure>
-                                <div class="airport_service_content">
-                                    <h5>Welcome at Arrival Bt Airport</h5>
-                                </div>
-                            </div>
-                            <div class="airport_service_card">
-                                <figure class="airport_service_img">
-                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
-                                </figure>
-                                <div class="airport_service_content">
-                                    <h5>Welcome at Arrival Bt Airport</h5>
-                                </div>
-                            </div>
-                            <div class="airport_service_card">
-                                <figure class="airport_service_img">
-                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
-                                </figure>
-                                <div class="airport_service_content">
-                                    <h5>Welcome at Arrival Bt Airport</h5>
-                                </div>
-                            </div>
-                            <div class="airport_service_card">
-                                <figure class="airport_service_img">
-                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
-                                </figure>
-                                <div class="airport_service_content">
-                                    <h5>Welcome at Arrival Bt Airport</h5>
-                                </div>
-                            </div>
-                            <div class="airport_service_card">
-                                <figure class="airport_service_img">
-                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
-                                </figure>
-                                <div class="airport_service_content">
-                                    <h5>Welcome at Arrival Bt Airport</h5>
-                                </div>
-                            </div>
-                            <div class="airport_service_card">
-                                <figure class="airport_service_img">
-                                    <img src="images/airport-service1.webp" alt="image" class="img-fluid">
-                                </figure>
-                                <div class="airport_service_content">
-                                    <h5>Welcome at Arrival Bt Airport</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>                
             </div>
             <div class="tab-pane fade" id="pills-six" role="tabpanel" aria-labelledby="pills-sixe-tab">
-                <div>
+                <div class="about_content text-center mb-5">
                     <h3>The largest charter fleet in INDIA</h3>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-12">
                     </div>
                     <div class="col-md-6">
-                        <figure>
-                            <img src="images/about-img1.png" alt="image" class="img-fluid">
+                        <figure class="about_img">
+                            <img src="images/fleet-img1.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-6">
@@ -305,12 +248,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center flex-row-reverse">
-                    <div class="col-12">
-                    </div>
+                <div class="row align-items-center flex-row-reverse">                    
                     <div class="col-md-6">
-                        <figure>
-                            <img src="images/about-img1.png" alt="image" class="img-fluid">
+                        <figure class="about_img">
+                            <img src="images/fleet-img2.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-6">
@@ -327,8 +268,8 @@
                     <div class="col-12">
                     </div>
                     <div class="col-md-6">
-                        <figure>
-                            <img src="images/about-img1.png" alt="image" class="img-fluid">
+                        <figure class="about_img">
+                            <img src="images/fleet-img3.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-6">
@@ -345,8 +286,8 @@
                     <div class="col-12">
                     </div>
                     <div class="col-md-6">
-                        <figure>
-                            <img src="images/about-img1.png" alt="image" class="img-fluid">
+                        <figure class="about_img">
+                            <img src="images/fleet-img4.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
                     <div class="col-md-6">

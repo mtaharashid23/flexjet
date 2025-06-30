@@ -1113,6 +1113,10 @@ html.lenis body {
 	font-weight: 500;
 }
 
+.footer_main_nav li a:hover {
+	color: var(--color-accent);
+}
+
 
 .footer_copyright {
 	border-top: 1px solid #404040;
@@ -1314,6 +1318,10 @@ html.lenis body {
 	font-weight: 600;
 }
 
+.team_card_content {
+	margin: 1rem 0 0;
+}
+
 .team_card_content h4 {
 	font-size: 1.5rem;
 	font-weight: 600;
@@ -1321,3 +1329,7 @@ html.lenis body {
 }
 
 /* About Page End */
+
+.inner_banner_img {
+    height: 100%;
+}

@@ -53,7 +53,7 @@ include 'include/header.php' ?>
                             </div>
                         </li>
                     </ul>
-                    <a href="" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@ include 'include/header.php' ?>
                             </div>
                         </li>
                     </ul>
-                    <a href="" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@ include 'include/header.php' ?>
                             </div>
                         </li>
                     </ul>
-                    <a href="" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -155,7 +155,7 @@ include 'include/header.php' ?>
                             </div>
                         </li>
                     </ul>
-                    <a href="" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -197,7 +197,7 @@ include 'include/header.php' ?>
                             </div>
                         </li>
                     </ul>
-                    <a href="" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">LEARN MORE</a>
                 </div>
             </div>
         </div>        

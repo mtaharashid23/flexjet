@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-md-6">
-                <a href="" class="footer_logo">
+                <a href="index.php" class="footer_logo">
                     <img src="images/logo.png" alt="">
                 </a>
             </div>
@@ -25,30 +25,15 @@
                             service, and complete discretion. Whether it’s a last-minute business flight or a planned
                             escape, we ensure your journey is flawless.
                         </p>
-                        <ul class="footer_main_social">
-                            <li>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <a href=""></a>
-                            </li>
-                            <li>
-                                <a href=""></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <ul class="footer_main_nav">
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Fleet</a></li>
-                        <li><a href="">Jet Charter</a></li>
-                        <li><a href="">Why Choose Us</a></li>
-                        <li><a href="">News</a></li>                        
+                        <li><a href="about.php">About Us</a></li> 
+                <li><a href="services.php">Services</a></li>
+                <li><a href="fleet.php">Aircraft</a></li>
+                <li><a href="programs.php">Programs</a></li>
+                <li><a href="inquire.php">Contact Us</a></li>                       
                     </ul>
                 </div>
             </div>

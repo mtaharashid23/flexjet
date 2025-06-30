@@ -30,11 +30,7 @@
                 <li class="nav-item">
                     <a class="nav-link" id="pills-four-tab" data-toggle="pill" href="#pills-four" role="tab"
                         aria-controls="pills-four" aria-selected="false">Highlights</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="pills-five-tab" data-toggle="pill" href="#pills-five" role="tab"
-                        aria-controls="pills-five" aria-selected="false">Brochures</a>
-                </li>
+                </li>                
                 <li class="nav-item">
                     <a class="nav-link" id="pills-six-tab" data-toggle="pill" href="#pills-six" role="tab"
                         aria-controls="pills-six" aria-selected="false">Our Fleet</a>
@@ -107,7 +103,7 @@
                         </figure>
                     </div>
                     <div class="col-12">
-                        <div class="about_content">
+                        <div class="about_content mt-5">
                             <h4>We look forward to your patronage with a commitment to offer you a world-class
                                 experience.</h4>
                             <p>
@@ -191,7 +187,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="about_content">
+                        <div class="about_content my-5">
                             <h3>PRIVACY MATTERS</h3>
                             <p>
                                 We understand the special needs of the elite travellers on board. You can relax in a

@@ -31,7 +31,7 @@
         </div>
         <menu class="menulist">
             <ul>
-                <!-- <li><a href="about.php">About Us</a></li> -->
+                <li><a href="about.php">About Us</a></li>
                 <li><a href="services.php">Services</a></li>
                 <li><a href="fleet.php">Aircraft</a></li>
                 <li><a href="programs.php">Programs</a></li>

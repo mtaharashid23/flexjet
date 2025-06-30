@@ -23,22 +23,22 @@ include 'include/header.php' ?>
             </div>
             <div class="col-md-6">
                 <div class="programs_content">
-                    <h3>jet card</h3>
+                    <h3>Jet Card</h3>
+                    <h5>A Smart Introduction to Private Aviation</h5>
                     <p>
-                        An enticing way to experience the Air Affair difference first-hand. This convenient and
-                        exploratory
-                        debit-style model is meant for new entrants to the private aviation space.
+                        An enticing, debit-style entry into the world of Air Affair — designed for those exploring
+                        private aviation with flexibility and simplicity.
                     </p>
                     <ul class="programs_list">
                         <li>
                             <div class="programs_list_text">
-                                <h4>ideal for those who fly</h4>
-                                <h6>25+ HOURS ANNUALLY</h6>
+                                <h4>Ideal for: Flyers logging</h4>
+                                <h6>25+ hours annually</h6>
                             </div>
                         </li>
                         <li>
                             <div class="programs_list_text">
-                                <h4>COST COMPONENTS</h4>
+                                <h4>Cost Components</h4>
                                 <p>Initial Deposit</p>
                                 <p>No Asset Purchase</p>
                                 <p>No Monthly Management Fee</p>
@@ -46,14 +46,14 @@ include 'include/header.php' ?>
                         </li>
                         <li>
                             <div class="programs_list_text">
-                                <h4>PROGRAM FEATURES</h4>
-                                <p>Immediate Private Jet Access</p>
-                                <p>Inclusive Pricing</p>
-                                <p>Advanced Scheduling</p>
+                                <h4>Program Features</h4>
+                                <p>Immediate Jet Access</p>
+                                <p>All-Inclusive Pricing</p>
+                                <p>Advanced Scheduling Capabilities</p>
                             </div>
                         </li>
                     </ul>
-                    <a href="contact.php" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -65,25 +65,25 @@ include 'include/header.php' ?>
             </div>
             <div class="col-md-6">
                 <div class="programs_content">
-                    <h3>Aircraft management</h3>
+                    <h3>Aircraft Management</h3>
+                    <h5>
+                        Maximize Ownership. Minimize Effort.
+                    </h5>
                     <p>
-                        As the exclusive fractional home of the Gulfstream G650, only Air Affair offers this innovative
-                        way
-                        to utilize one of the industry’s most capable private jets. With a single fractional or lease
-                        share, this program grants you unrestricted use of our entire fleet at attractive interchange
-                        rates.
+                        Enjoy hassle-free private jet ownership with exclusive access to our fleet. Perfect for those
+                        who own or co-own an aircraft and want the benefits of full fleet flexibility.
                     </p>
                     <ul class="programs_list">
                         <li>
                             <div class="programs_list_text">
-                                <h4>FEATURED ADVANTAGES</h4>
-                                <p>Right-size your aircraft and maximize the efficiency of each trip</p>
-                                <p>Fly friends, family members and associates on any jet in our fleet</p>
-                                <p>Overall, the flexibility to unlock the entire Air Affair fleet</p>
+                                <h4>Featured Advantages</h4>
+                                <p>Match aircraft to trip size for maximum efficiency</p>
+                                <p>Family, friends & associates can fly without restrictions</p>
+                                <p>Access to the entire Air Affair fleet at attractive interchange rates</p>
                             </div>
                         </li>
                     </ul>
-                    <a href="contact.php" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -95,38 +95,38 @@ include 'include/header.php' ?>
             </div>
             <div class="col-md-6">
                 <div class="programs_content">
-                    <h3>LEASE</h3>
+                    <h3>Lease Program</h3>
+                    <h5>Flexibility Meets Financial Freedom</h5>
                     <p>
-                        The flexibility of liquidity. Whether traveling for business or pleasure, aircraft leasing
-                        offers the advantages of purchasing a fractional jet share, replacing the upfront capital outlay
-                        to purchase a share of an actual aircraft with a structured monthly installment.
+                        Aircraft leasing replaces upfront capital costs with predictable monthly payments, offering the
+                        benefits of ownership, without the long-term commitment.
                     </p>
                     <ul class="programs_list">
                         <li>
                             <div class="programs_list_text">
-                                <h4>ideal for those who fly</h4>
-                                <h6>50+ HOURS ANNUALLY</h6>
+                                <h4>Ideal for: Flyers logging</h4>
+                                <h6>50+ hours annually</h6>
                             </div>
                         </li>
                         <li>
                             <div class="programs_list_text">
-                                <h4>COST COMPONENTS</h4>
+                                <h4>Cost Components</h4>
                                 <p>Lease Deposit</p>
-                                <p>Monthly Lease Payment</p>
+                                <p>Monthly Lease Fee</p>
                                 <p>Monthly Management Fee</p>
                                 <p>Hourly Occupied Rate</p>
                             </div>
                         </li>
                         <li>
                             <div class="programs_list_text">
-                                <h4>PROGRAM FEATURES</h4>
-                                <p>Guaranteed Access</p>
-                                <p>Short Callout Time</p>
-                                <p>Interchange Opportunities</p>
+                                <h4>Program Features</h4>
+                                <p>Guaranteed Jet Access</p>
+                                <p>Short Callout Times</p>
+                                <p>Interchange Across Fleet Options</p>
                             </div>
                         </li>
                     </ul>
-                    <a href="contact.php" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -138,24 +138,23 @@ include 'include/header.php' ?>
             </div>
             <div class="col-md-6">
                 <div class="programs_content">
-                    <h3>helicopter access</h3>
+                    <h3>Helicopter Access</h3>
+                    <h5>The Ultimate Urban Commute Solution</h5>
                     <p>
-                        The cure for the common commute. Air Affair helicopters are the epitome of airborne excellence
-                        and
-                        VIP travel, simultaneously offering unparalleled reliability, luxury and superior performance.
-                        Our helicopters come with the same personalized, concierge-level service as our private jets.
+                        Designed for speed, convenience, and VIP flexibility, our helicopter service makes even the
+                        busiest cities feel accessible and connected.
                     </p>
                     <ul class="programs_list">
                         <li>
                             <div class="programs_list_text">
-                                <h4>AVAILABLE ACCESS OPTIONS</h4>
+                                <h4>Access Options</h4>
                                 <p>Helicopter Lease</p>
                                 <p>Helicopter Card</p>
                                 <p>Selective Charter</p>
                             </div>
                         </li>
                     </ul>
-                    <a href="contact.php" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -167,40 +166,40 @@ include 'include/header.php' ?>
             </div>
             <div class="col-md-6">
                 <div class="programs_content">
-                    <h3>fractional ownership</h3>
+                    <h3>Fractional Ownership</h3>
+                    <h5>Own the Experience — Not the Burden</h5>
                     <p>
-                        The pinnacle of the Air Affair experience. Secure the main benefits of whole aircraft ownership
-                        without a single one of the burdens. Unlock consistency, exceptional service and guaranteed
-                        access for a predictable cost and approachable obligation.
+                        Experience the luxury and consistency of whole aircraft ownership with significantly less
+                        financial and operational responsibility.
                     </p>
                     <ul class="programs_list">
                         <li>
                             <div class="programs_list_text">
-                                <h4>ideal for those who fly</h4>
-                                <h6>50+ HOURS ANNUALLY</h6>
+                                <h4>Ideal for: Flyers logging</h4>
+                                <h6>50+ hours annually</h6>
                             </div>
                         </li>
                         <li>
                             <div class="programs_list_text">
-                                <h4>COST COMPONENTS</h4>
-                                <p>Upfront Cost (Asset Purchase)</p>
+                                <h4>Cost Components</h4>
+                                <p>Upfront Asset Purchase</p>
                                 <p>Monthly Management Fee</p>
                                 <p>Hourly Occupied Rate</p>
                             </div>
                         </li>
                         <li>
                             <div class="programs_list_text">
-                                <h4>PROGRAM FEATURES</h4>
+                                <h4>Program Features</h4>
                                 <p>Guaranteed Access</p>
                                 <p>Short Callout Time</p>
-                                <p>Interchange Opportunities</p>
+                                <p>Full Interchange Opportunities Across Fleet</p>
                             </div>
                         </li>
                     </ul>
-                    <a href="contact.php" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">Contact Us</a>
                 </div>
             </div>
-        </div>        
+        </div>
 </section>
 
 <?php include 'include/footer.php' ?>

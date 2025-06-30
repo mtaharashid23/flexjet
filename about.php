@@ -30,7 +30,7 @@
                 <li class="nav-item">
                     <a class="nav-link" id="pills-four-tab" data-toggle="pill" href="#pills-four" role="tab"
                         aria-controls="pills-four" aria-selected="false">Highlights</a>
-                </li>                
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" id="pills-six-tab" data-toggle="pill" href="#pills-six" role="tab"
                         aria-controls="pills-six" aria-selected="false">Our Fleet</a>
@@ -49,9 +49,11 @@
                         <div class="about_content">
                             <h3>Mission</h3>
                             <p>
-                                "We strive to be a profitable organization through stakeholder satisfaction and employee
-                                ownership, with a good product mix, consistently delivering reliable and safe journeys
-                                with the highest level of personalized guest service."
+                                We are committed to building a profitable and sustainable organization by prioritizing
+                                stakeholder trust, nurturing a culture of employee ownership, and offering a
+                                well-balanced product portfolio. Our focus remains on delivering safe, reliable, and
+                                personalized charter journeys, ensuring every guest experiences excellence at every
+                                step.
                             </p>
                         </div>
                     </div>
@@ -66,8 +68,9 @@
                         <div class="about_content">
                             <h3>Vision</h3>
                             <p>
-                                "To Be The Most Preferred Personal Charter Airline Promising Customized Luxury For An
-                                Enjoyable Guest Experience."
+                                To become India’s most preferred personal charter airline, delivering tailored luxury
+                                experiences that redefine air travel, where every journey is memorable, seamless, and
+                                crafted around the guest’s comfort and expectations.
                             </p>
                         </div>
                     </div>
@@ -77,18 +80,23 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="about_content">
-                            <h3>ABOUT US</h3>
+                            <h3>About Us</h3>
                             <p>
-                                Club One Air is one of India's oldest and largest air charter company. We own a fleet of
-                                jets that cater to corporate India and individuals with exclusive taste. Our
-                                professionals with extensive aviation experience provide unparalleled safety, world
-                                class ground and inflight services. Our pilots have considerable experience in the type
-                                of aircraft we operate. Club One Air is the only Indian company with operational base in
-                                Delhi, Mumbai and Vishakhapatnam.
+                                Air Affair is one of India's premier and most trusted personal charter aviation
+                                companies. With a fleet of state-of-the-art jets, we proudly serve discerning
+                                individuals and top-tier corporate clients seeking exclusivity, efficiency, and luxury
+                                in air travel.
                             </p>
                             <p>
-                                Our constant endeavor focused on service and safety has made us a household name amongst
-                                CEO's of fortune 500 companies, heads of state, film stars and world leaders.
+                                Backed by a team of seasoned aviation professionals, we are committed to delivering the
+                                highest standards of safety, personalized inflight service, and seamless ground
+                                coordination. Our pilots bring extensive experience flying the specific aircraft we
+                                operate, ensuring every journey is smooth, secure, and stress-free.
+                            </p>
+                            <p>
+                                With operational bases across major Indian metros — including Delhi, Mumbai, and
+                                Visakhapatnam — Air Affair is uniquely positioned to serve clients across the country
+                                with unmatched reliability.
                             </p>
                         </div>
                     </div>
@@ -103,14 +111,20 @@
                         </figure>
                     </div>
                     <div class="col-12">
-                        <div class="about_content mt-5">
-                            <h4>We look forward to your patronage with a commitment to offer you a world-class
-                                experience.</h4>
+                        <div class="about_content mt-2">
                             <p>
-                                We look forward to your patronage with a commitment to offer you a world-class
-                                experience. Club one Air stands for safety, speed, courtesy, proficiency and well being.
-                                These values have placed Club One Air into the elite list of top-notch charter aviation
-                                companies worldwide.
+                                Our unwavering focus on service excellence and flight safety has earned the trust of
+                                Fortune 500 CEOs, government dignitaries, global business leaders, and celebrated
+                                personalities from the world of film and sports.
+                            </p>
+                            <p>
+                                We invite you to experience private aviation redefined, where luxury meets precision,
+                                and every flight is curated just for you.
+                            </p>
+                            <p>
+                                At Air Affair, we stand by our values of Safety, Speed, Courtesy, Professionalism, and
+                                Well-being, values that have placed us among the elite charter aviation providers
+                                globally.
                             </p>
                         </div>
                     </div>
@@ -173,14 +187,13 @@
                     </div>
                     <div class="col-md-6">
                         <div class="about_content">
-                            <h3>SAFFETY & EFFICENCY</h3>
+                            <h3>Safety & Efficiency</h3>
                             <p>
-                                An important aspect in air travel is safety while traveling which is ensured by air
-                                charter companies like Club One Air. Air charter services take care of the security and
-                                privacy issues. Private aircraft charter is less likely to experience delays than
-                                commercial airlines. While they cannot help being grounded by weather or some airport
-                                issues, small private planes are less likely to experience any sort of baggage or
-                                maintenance issues.
+                                At Air Affair, your safety is our top priority. Our charter services are designed to
+                                provide a secure, smooth, and efficient flying experience. Unlike commercial airlines,
+                                our private jets minimize delays and eliminate the typical hassles of baggage handling
+                                or last-minute maintenance issues. Every journey is planned with precision to ensure
+                                punctuality, comfort, and reliability, no matter the destination.
                             </p>
                         </div>
                     </div>
@@ -188,11 +201,13 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="about_content my-5">
-                            <h3>PRIVACY MATTERS</h3>
+                            <h3>Privacy Matters</h3>
                             <p>
-                                We understand the special needs of the elite travellers on board. You can relax in a
-                                comfortable & relaxed atmosphere, access a separate office where you are able to fully
-                                concentrate on work and prepare for your conference.
+                                We understand the unique expectations of high-profile and elite travelers. Whether
+                                you're flying for business or leisure, Air Affair offers complete discretion and
+                                comfort. Enjoy a tranquil cabin, personalized service, and dedicated space to relax or
+                                work, including private onboard areas designed to help you focus and prepare ahead of
+                                your meetings or events.
                             </p>
                         </div>
                     </div>
@@ -205,26 +220,33 @@
                     </div>
                     <div class="col-md-6">
                         <div class="about_content">
-                            <h3>SECURITY CHECKS</h3>
+                            <h3>Security & Maintenance</h3>
                             <p>
-                                In house Maintenance & Engineering
+                                Safety is embedded in every aspect of our operations. Our fleet is maintained by a
+                                certified in-house Maintenance & Engineering team, ensuring each aircraft meets and
+                                exceeds international safety standards.
                             </p>
                             <p>
-                                Aircrafts are maintained by qualified Engineering Wing
+                                ✅ Fully qualified engineering crew <br>
+                                ✅ Zero-incident and accident-free travel record <br>
+                                ✅ Regular safety audits conducted by HART & WYVERN Aviation
                             </p>
                             <p>
-                                Incident and Accident Free Travel Record
-                            </p>
-                            <p>
-                                Safety Checks done by HART & WYVERN Aviation
+                                With Air Affair, you're not just choosing luxury, you're choosing peace of mind,
+                                professionalism, and a legacy of trust in private aviation.
                             </p>
                         </div>
                     </div>
-                </div>                
+                </div>
             </div>
             <div class="tab-pane fade" id="pills-six" role="tabpanel" aria-labelledby="pills-sixe-tab">
                 <div class="about_content text-center mb-5">
-                    <h3>The largest charter fleet in INDIA</h3>
+                    <h3>India’s Largest Personal Charter Fleet — Where Luxury Meets Performance</h3>
+                    <p>
+                        At Air Affair, we take pride in operating one of India’s most diverse and advanced charter
+                        fleets. Each aircraft in our lineup is handpicked to offer the perfect blend of comfort, speed,
+                        and safety, ensuring that every journey meets the highest standards of excellence.
+                    </p>
                 </div>
                 <div class="row align-items-center">
                     <div class="col-12">
@@ -236,15 +258,16 @@
                     </div>
                     <div class="col-md-6">
                         <div class="about_content">
-                            <h3>OUR FLEET</h3>
+                            <h3>Hawker 850XP</h3>
                             <p>
-                                Club One Air has a fleet of 8 aircrafts which includes 2 Hawker 800XP, 2 Hawker 900XP, 1
-                                Hawker 750, 1 Cessna Citation CJ2, 1 Cessna Citation CJ3 and 1 Cessna Citation XLS.
+                                A true business jet favorite, the Hawker 850XP offers exceptional range and cabin
+                                comfort. Ideal for mid-range travel with a spacious interior and outstanding in-flight
+                                performance.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center flex-row-reverse">                    
+                <div class="row align-items-center flex-row-reverse">
                     <div class="col-md-6">
                         <figure class="about_img">
                             <img src="images/fleet-img2.webp" alt="image" class="img-fluid">
@@ -252,10 +275,11 @@
                     </div>
                     <div class="col-md-6">
                         <div class="about_content">
-                            <h3>OUR FLEET</h3>
+                            <h3>Citation XLS+</h3>
                             <p>
-                                Club One Air has a fleet of 8 aircrafts which includes 2 Hawker 800XP, 2 Hawker 900XP, 1
-                                Hawker 750, 1 Cessna Citation CJ2, 1 Cessna Citation CJ3 and 1 Cessna Citation XLS.
+                                Combining elegance with efficiency, the Citation XLS+ is perfect for quick regional
+                                hops. With a roomy cabin and fast climb capabilities, it offers seamless connectivity
+                                between major cities.
                             </p>
                         </div>
                     </div>
@@ -270,10 +294,11 @@
                     </div>
                     <div class="col-md-6">
                         <div class="about_content">
-                            <h3>OUR FLEET</h3>
+                            <h3>Dassault Falcon 2000</h3>
                             <p>
-                                Club One Air has a fleet of 8 aircrafts which includes 2 Hawker 800XP, 2 Hawker 900XP, 1
-                                Hawker 750, 1 Cessna Citation CJ2, 1 Cessna Citation CJ3 and 1 Cessna Citation XLS.
+                                The ultimate in luxury and long-range travel. The Falcon 2000 delivers wide-cabin
+                                comfort, intercontinental range, and smooth flight performance, making it the choice of
+                                global executives.
                             </p>
                         </div>
                     </div>
@@ -288,10 +313,11 @@
                     </div>
                     <div class="col-md-6">
                         <div class="about_content">
-                            <h3>OUR FLEET</h3>
+                            <h3>Beechcraft Premier 1</h3>
                             <p>
-                                Club One Air has a fleet of 8 aircrafts which includes 2 Hawker 800XP, 2 Hawker 900XP, 1
-                                Hawker 750, 1 Cessna Citation CJ2, 1 Cessna Citation CJ3 and 1 Cessna Citation XLS.
+                                Designed for speed and economy, the Premier 1 is perfect for short to medium-range
+                                missions. Its sleek design and smart interior layout ensure a comfortable yet
+                                cost-effective experience.
                             </p>
                         </div>
                     </div>

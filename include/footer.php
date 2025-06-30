@@ -33,7 +33,7 @@
                 <li><a href="services.php">Services</a></li>
                 <li><a href="fleet.php">Aircraft</a></li>
                 <li><a href="programs.php">Programs</a></li>
-                <li><a href="inquire.php">Contact Us</a></li>                       
+                <li><a href="contact.php">Contact Us</a></li>                       
                     </ul>
                 </div>
             </div>

@@ -23,14 +23,13 @@ include 'include/header.php' ?>
             </div>
             <div class="col-md-6">
                 <div class="programs_content">
-                    <h3>air ambulance</h3>
+                    <h3>Air Ambulance</h3>
                     <p>
-                        All Air Affair events are equal parts style and sophistication further exemplifying why a diversity
-                        of curated experiences remains such a core part of our philanthropic private travel community.
-                        These curated and one-of-a-kind events take place in world-class destinations and are a key
-                        feature of the Air Affair lifestyle.
+                        Time-sensitive. Life-saving. Our Air Ambulance services are equipped for urgent medical
+                        transport, staffed by experienced medical professionals, and supported by fully equipped
+                        aircraft. We ensure patient care, safety, and rapid response, wherever you're located.
                     </p>
-                    <a href="" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -42,13 +41,13 @@ include 'include/header.php' ?>
             </div>
             <div class="col-md-6">
                 <div class="programs_content">
-                    <h3>Holiday charter</h3>
+                    <h3>Holiday Charter</h3>
                     <p>
-                        Our partnerships represent coveted collaborations with like-minded global companies that fit the
-                        Air Affair lifestyle and luxury ethos. These alignments update every season and showcase brands
-                        that offer world-class products, services and even top-tier resort accommodations.
+                        Experience leisure like never before. Our Holiday Charter services offer access to premium
+                        resort destinations through exclusive partnerships with world-class brands and hotels. Whether
+                        it’s a romantic escape or a family retreat, we deliver luxury tailored to your travel vision.
                     </p>
-                    <a href="" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -60,13 +59,13 @@ include 'include/header.php' ?>
             </div>
             <div class="col-md-6">
                 <div class="programs_content">
-                    <h3>Personal charter </h3>
+                    <h3>Personal Charter</h3>
                     <p>
-                        Own a piece of your pursuit for exceptional private travel. Enjoy a bespoke storefront for
-                        limited-edition fashions, innovative luxury partnerships and even custom designer collections
-                        that share in our passion for the impeccable. Exclusively available for your purchase.
+                        Redefine freedom with Personal Charters designed exclusively for you. From fashion-forward
+                        collaborations and bespoke onboard experiences to private destinations, enjoy every flight as a
+                        statement of your lifestyle, with unmatched privacy and precision.
                     </p>
-                    <a href="" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -78,17 +77,16 @@ include 'include/header.php' ?>
             </div>
             <div class="col-md-6">
                 <div class="programs_content">
-                    <h3>corporate charter</h3>
+                    <h3>Corporate Charter</h3>
                     <p>
-                        We have leveraged our global travel network to present extraordinary getaways, granting our
-                        aircraft Owners access to the world’s most cherished locations. These curated bespoke private
-                        excursions begin in the cabin of your Air Affair aircraft and will take your adventures to new
-                        heights.
+                        Maximize productivity while traveling in comfort. Our Corporate Charter solutions are crafted
+                        for business leaders and executive teams, providing seamless travel to key locations, on your
+                        schedule. Access global destinations and exclusive experiences, beginning the moment you board.
                     </p>
-                    <a href="" class="themeBtn">LEARN MORE</a>
+                    <a href="contact.php" class="themeBtn">Contact Us</a>
                 </div>
             </div>
-        </div>        
+        </div>
 </section>
 
 <?php include 'include/footer.php' ?>

@@ -38,7 +38,7 @@
                 <!-- <li><a href="why-air-affair.php">Why Air Affair</a></li>
                 <li><a href="lifestyle.php">Lifestyle</a></li>
                 <li><a href="resources.php">Resources</a></li> -->
-                <li><a href="inquire.php">Contact Us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
             </ul>
         </menu>
     </header>

@@ -49,8 +49,8 @@ include 'include/header.php' ?>
                     <div class="col-md-5">
                         <div class="fleet_content text-center">
                             <h3>Hawker 850XP</h3>
-                            <h4>A TITAN OF INDUSTRY</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS ULTRA-LONG-RANGE</a>
+                            <h4>A Titan of Industry</h4>
+                            <a href="contact.php" class="themeBtn mx-auto">Access: Ultra-Long-Range</a>
                         </div>
                     </div>
                 </div>
@@ -65,8 +65,8 @@ include 'include/header.php' ?>
                     <div class="col-md-5">
                         <div class="fleet_content text-center">
                             <h3>Citation XLS+</h3>
-                            <h4>ENHANCING ENTERPRISING OPPORTUNITIES</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS LARGE CABIN</a>
+                            <h4>Enhancing Enterprising Opportunities</h4>
+                            <a href="contact.php" class="themeBtn mx-auto">Access: Large Cabin</a>
                         </div>
                     </div>
                 </div>
@@ -80,9 +80,9 @@ include 'include/header.php' ?>
                     </div>
                     <div class="col-md-5">
                         <div class="fleet_content text-center">
-                            <h3>falcon 2000</h3>
-                            <h4>AN ASCENDING PATHFINDER PEDIGREE</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS SUPER-MIDSIZE</a>
+                            <h3>Dassault Falcon 2000</h3>
+                            <h4>An Ascending Pathfinder Pedigree</h4>
+                            <a href="contact.php" class="themeBtn mx-auto">Access: Super-Midsize</a>
                         </div>
                     </div>
                 </div>
@@ -97,8 +97,8 @@ include 'include/header.php' ?>
                     <div class="col-md-5">
                         <div class="fleet_content text-center">
                             <h3>Beechcraft Premier 1</h3>
-                            <h4>TRUE EXECUTIVE EVOLUTION</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS SUPER-MIDSIZE</a>
+                            <h4>True Executive Evolution</h4>
+                            <a href="contact.php" class="themeBtn mx-auto">Access: Super-Midsize</a>
                         </div>
                     </div>
                 </div>
@@ -113,44 +113,12 @@ include 'include/header.php' ?>
                     <div class="col-md-5">
                         <div class="fleet_content text-center">
                             <h3>Airbus H125</h3>
-                            <h4>AN EXPLORER OF ENDLESS HORIZONS</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS MIDSIZE</a>
+                            <h4>An Explorer of Endless Horizons</h4>
+                            <a href="contact.php" class="themeBtn mx-auto">Access: Midsize</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane fade" id="pills-six" role="tabpanel" aria-labelledby="pills-sixe-tab">
-                <div class="row justify-content-center align-items-center flex-row-reverse">
-                    <div class="col-md-5">
-                        <figure class="fleet_img">
-                            <img src="images/fleet-img6.webp" alt="image" class="img-fluid">
-                        </figure>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="fleet_content text-center">
-                            <h3>PHENOM 300</h3>
-                            <h4>PERFECTLY ADAPTED FOR ADVENTURE</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS LIGHT CABIN</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="tab-pane fade" id="pills-seven" role="tabpanel" aria-labelledby="pills-sevenee-tab">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-md-5">
-                        <figure class="fleet_img">
-                            <img src="images/fleet-img7.webp" alt="image" class="img-fluid">
-                        </figure>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="fleet_content text-center">
-                            <h3>SIKORSKY S-76</h3>
-                            <h4>TREND SETTING PERFORMANCE & PRECISION</h4>
-                            <a href="" class="themeBtn mx-auto">ACCESS HELICOPTER</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div>            
         </div>
     </div>
 </section>

@@ -16,7 +16,11 @@
     <div class="container">
         <div class="contact_wrapper">
             <div class="contact_title text-center">
-                <h3>REQUEST INFORMATION</h3>
+                <h3>Request Information</h3>
+                <p>
+                    Please fill out the form below, and a dedicated Air Affair representative will connect with you
+                    shortly to assist with your inquiry.
+                </p>
             </div>
             <form class="contact_form">
                 <div class="row">
@@ -29,11 +33,11 @@
                         <input type="text" name="last_name" placeholder="Last Name">
                     </div>
                     <div class="col-md-6">
-                        <label for="">Email*</label>
+                        <label for="">Email Address *</label>
                         <input type="email" name="email" placeholder="Email">
                     </div>
                     <div class="col-md-6">
-                        <label for="">Phone*</label>
+                        <label for="">Phone Number *</label>
                         <input type="tel" name="phone" placeholder="Phone">
                     </div>
                     <div class="col-md-6">
@@ -49,7 +53,7 @@
                         <label for="">ZIP*</label>
                         <input type="tel" name="zip" placeholder="ZIP">
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <label for="">Do you currently fly private?*</label>
                         <select id="">
                             <option value="Select an option">Select an option</option>
@@ -62,18 +66,14 @@
                         <label for="">Which program are you interested in*</label>
                         <select id="">
                             <option value="Select an option">Select an option</option>
-                            <option value="Select an option">Select an option</option>
-                            <option value="Select an option">Select an option</option>
-                            <option value="Select an option">Select an option</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="">Which program are you interested in*</label>
-                        <select id="">
-                            <option value="Select an option">Select an option</option>
-                            <option value="Select an option">Select an option</option>
-                            <option value="Select an option">Select an option</option>
-                            <option value="Select an option">Select an option</option>
+                            <option value="Jet Card">Jet Card</option>
+                            <option value="Lease Program">Lease Program</option>
+                            <option value="Fractional Ownership">Fractional Ownership</option>
+                            <option value="Aircraft Management">Aircraft Management</option>
+                            <option value="Helicopter Access">Helicopter Access</option>
+                            <option value="Holiday Charter">Holiday Charter</option>
+                            <option value="Corporate Charter">Corporate Charter</option>
+                            <option value="Other">Other</option>
                         </select>
                     </div>
                     <div class="col-md-12">

@@ -17,7 +17,7 @@
                 <a class="navbar-brand header-main__logo" href="index.php">
                     <img src="images/logo.png" alt="image" class="<?php echo isset($logowhite) ? $logowhite : 'img-fluid';  ?>">
                 </a>
-                <ul>
+                <ul class="header-main__nav">
                     <li>
                         <button class="btn btn-menu ml-auto">
                             <div> <span></span>
@@ -25,6 +25,9 @@
                                 <span></span>
                             </div>
                         </button>
+                    </li>
+                    <li>
+                        <a href="" class="themeBtn" data-toggle="modal" data-target="#flightModal">Request a quote</a>
                     </li>
                 </ul>
             </nav>

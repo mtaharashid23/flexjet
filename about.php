@@ -77,26 +77,27 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
-                <div class="row">
-                    <div class="col-12">
+                <div class="row algin-items-center">
+                    <div class="col-md-6">
                         <div class="about_content">
                             <h3>About Us</h3>
                             <p>
-                                Air Affair is one of India's premier and most trusted personal charter aviation
-                                companies. With a fleet of state-of-the-art jets, we proudly serve discerning
-                                individuals and top-tier corporate clients seeking exclusivity, efficiency, and luxury
-                                in air travel.
+                                Air Affair is one of India’s leading and most trusted names in personal charter
+                                aviation. With a modern fleet of high-performance jets, we cater to discerning
+                                individuals and elite corporate clients who value exclusivity, time-efficiency, and
+                                luxury in every journey.
                             </p>
                             <p>
-                                Backed by a team of seasoned aviation professionals, we are committed to delivering the
-                                highest standards of safety, personalized inflight service, and seamless ground
-                                coordination. Our pilots bring extensive experience flying the specific aircraft we
-                                operate, ensuring every journey is smooth, secure, and stress-free.
+                                Founded with a vision to redefine private air travel in India, Air Affair brings
+                                together a team of highly experienced aviation professionals dedicated to the highest
+                                standards of safety, service, and operational excellence. Our pilots are extensively
+                                trained on the specific aircraft we operate, ensuring each flight is smooth, secure, and
+                                tailored to your needs, from takeoff to touchdown.
                             </p>
                             <p>
-                                With operational bases across major Indian metros — including Delhi, Mumbai, and
-                                Visakhapatnam — Air Affair is uniquely positioned to serve clients across the country
-                                with unmatched reliability.
+                                With operational hubs across major cities like Delhi, Mumbai, and Visakhapatnam, we are
+                                strategically positioned to serve clients across India with prompt, dependable, and
+                                seamless charter services.
                             </p>
                         </div>
                     </div>
@@ -105,27 +106,17 @@
                             <img src="images/about-img3.webp" alt="image" class="img-fluid">
                         </figure>
                     </div>
-                    <div class="col-md-6">
-                        <figure class="about_img">
-                            <img src="images/about-img4.webp" alt="image" class="img-fluid">
-                        </figure>
-                    </div>
+                </div>
+                <div class="row">
                     <div class="col-12">
-                        <div class="about_content mt-2">
+                        <div class="about_content">
+                            <h3>[Your Name], Founder & CEO of Air Affair</h3>
                             <p>
-                                Our unwavering focus on service excellence and flight safety has earned the trust of
-                                Fortune 500 CEOs, government dignitaries, global business leaders, and celebrated
-                                personalities from the world of film and sports.
-                            </p>
-                            <p>
-                                We invite you to experience private aviation redefined, where luxury meets precision,
-                                and every flight is curated just for you.
-                            </p>
-                            <p>
-                                At Air Affair, we stand by our values of Safety, Speed, Courtesy, Professionalism, and
-                                Well-being, values that have placed us among the elite charter aviation providers
-                                globally.
-                            </p>
+                                Air Affair was born from a simple idea, to make private aviation not just accessible,
+                                but truly exceptional. Every detail, from the aircraft we choose to the people we hire,
+                                is designed with our clients in mind. Whether you're flying for business or pleasure, we
+                                aim to offer you an experience that is effortless, elegant, and entirely your own.
+                            </p>                            
                         </div>
                     </div>
                 </div>

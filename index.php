@@ -8,10 +8,10 @@ include 'include/header.php' ?>
             <div class="main_banner_content">
                 <div class="row">
                     <div class="col-md-8">
-                        <h2>Touch the Sky</h2>
-                        <h1>Begin Your Journey with Air Affair</h1>
+                        <h2>Fly Like you</h2>
+                        <h1>Own the Sky</h1>
                         <div class="mt-2">
-                            <a href="" class="themeBtn">Get a Quote</a>
+                            <a href="" class="themeBtn" >Get a Quote</a>
                         </div>
                     </div>
                 </div>

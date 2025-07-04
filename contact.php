@@ -1,8 +1,9 @@
-<?php include 'include/header.php' ?>
+<?php $title = "Contact Us";
+include 'include/header.php' ?>
 
 <section class="inner_banner">
     <figure class="inner_banner_img">
-        <img src="images/inner-bg.webp" alt="image" class="img-fluid">
+        <img src="images/new-img2.webp" alt="image" class="img-fluid">
     </figure>
     <div class="container">
         <div class="inner_banner_content">
@@ -81,7 +82,12 @@
                         <textarea name="question" rows="4" placeholder="Ask us a question"></textarea>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="themeBtn">SUBMIT</button>
+                        <button type="submit" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                            <div class="btn-fill"></div>
+                            <span class="btn-text">
+                                <span class="btn-text-inner change">SUBMIT</span>
+                            </span>
+                        </button>
                     </div>
                 </div>
             </form>

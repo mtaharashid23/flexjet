@@ -3,7 +3,7 @@ include 'include/header.php' ?>
 
 <section class="inner_banner">
     <figure class="inner_banner_img">
-        <img src="images/inner-bg.webp" alt="image" class="img-fluid">
+        <img src="images/video-img-bottom.webp" alt="image" class="img-fluid">
     </figure>
     <div class="container">
         <div class="inner_banner_content">
@@ -35,7 +35,7 @@ include 'include/header.php' ?>
                 <li class="nav-item">
                     <a class="nav-link" id="pills-five-tab" data-toggle="pill" href="#pills-five" role="tab"
                         aria-controls="pills-five" aria-selected="false">Airbus H125</a>
-                </li>                
+                </li>
             </ul>
         </div>
         <div class="tab-content fleet_tab_content mt-5" id="pills-tabContent">
@@ -50,7 +50,12 @@ include 'include/header.php' ?>
                         <div class="fleet_content text-center">
                             <h3>Hawker 850XP</h3>
                             <h4>A Titan of Industry</h4>
-                            <a href="contact.php" class="themeBtn mx-auto">Access: Ultra-Long-Range</a>
+                            <a href="contact.php" class="themeBtn magnetic mx-auto" data-strength="25" data-strength-text="15">
+                                <div class="btn-fill"></div>
+                                <span class="btn-text">
+                                    <span class="btn-text-inner change">Access: Ultra-Long-Range</span>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -66,7 +71,12 @@ include 'include/header.php' ?>
                         <div class="fleet_content text-center">
                             <h3>Citation XLS+</h3>
                             <h4>Enhancing Enterprising Opportunities</h4>
-                            <a href="contact.php" class="themeBtn mx-auto">Access: Large Cabin</a>
+                            <a href="contact.php" class="themeBtn magnetic mx-auto" data-strength="25" data-strength-text="15">
+                                <div class="btn-fill"></div>
+                                <span class="btn-text">
+                                    <span class="btn-text-inner change">Access: Large Cabin</span>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +92,12 @@ include 'include/header.php' ?>
                         <div class="fleet_content text-center">
                             <h3>Dassault Falcon 2000</h3>
                             <h4>An Ascending Pathfinder Pedigree</h4>
-                            <a href="contact.php" class="themeBtn mx-auto">Access: Super-Midsize</a>
+                            <a href="contact.php" class="themeBtn magnetic mx-auto" data-strength="25" data-strength-text="15">
+                                <div class="btn-fill"></div>
+                                <span class="btn-text">
+                                    <span class="btn-text-inner change">Access: Super-Midsize</span>
+                                </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -98,7 +113,12 @@ include 'include/header.php' ?>
                         <div class="fleet_content text-center">
                             <h3>Beechcraft Premier 1</h3>
                             <h4>True Executive Evolution</h4>
-                            <a href="contact.php" class="themeBtn mx-auto">Access: Super-Midsize</a>
+                            <a href="contact.php" class="themeBtn magnetic mx-auto" data-strength="25" data-strength-text="15">
+                                <div class="btn-fill"></div>
+                                <span class="btn-text">
+                                    <span class="btn-text-inner change">Access: Super-Midsize</span>
+                                </span>
+                            </a>                            
                         </div>
                     </div>
                 </div>
@@ -114,11 +134,16 @@ include 'include/header.php' ?>
                         <div class="fleet_content text-center">
                             <h3>Airbus H125</h3>
                             <h4>An Explorer of Endless Horizons</h4>
-                            <a href="contact.php" class="themeBtn mx-auto">Access: Midsize</a>
+                            <a href="contact.php" class="themeBtn magnetic mx-auto" data-strength="25" data-strength-text="15">
+                                <div class="btn-fill"></div>
+                                <span class="btn-text">
+                                    <span class="btn-text-inner change">Access: Midsize</span>
+                                </span>
+                            </a>                                                        
                         </div>
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>
     </div>
 </section>

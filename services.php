@@ -3,7 +3,7 @@ include 'include/header.php' ?>
 
 <section class="inner_banner">
     <figure class="inner_banner_img">
-        <img src="images/inner-bg.webp" alt="image" class="img-fluid">
+        <img src="images/fleet-img6.webp" alt="image" class="img-fluid">
     </figure>
     <div class="container">
         <div class="inner_banner_content">
@@ -29,7 +29,12 @@ include 'include/header.php' ?>
                         transport, staffed by experienced medical professionals, and supported by fully equipped
                         aircraft. We ensure patient care, safety, and rapid response, wherever you're located.
                     </p>
-                    <a href="contact.php" class="themeBtn">Contact Us</a>
+                    <a href="contact.php" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                        <div class="btn-fill"></div>
+                        <span class="btn-text">
+                            <span class="btn-text-inner change">Contact Us</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -47,7 +52,12 @@ include 'include/header.php' ?>
                         resort destinations through exclusive partnerships with world-class brands and hotels. Whether
                         it’s a romantic escape or a family retreat, we deliver luxury tailored to your travel vision.
                     </p>
-                    <a href="contact.php" class="themeBtn">Contact Us</a>
+                    <a href="contact.php" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                        <div class="btn-fill"></div>
+                        <span class="btn-text">
+                            <span class="btn-text-inner change">Contact Us</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -65,7 +75,12 @@ include 'include/header.php' ?>
                         collaborations and bespoke onboard experiences to private destinations, enjoy every flight as a
                         statement of your lifestyle, with unmatched privacy and precision.
                     </p>
-                    <a href="contact.php" class="themeBtn">Contact Us</a>
+                    <a href="contact.php" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                        <div class="btn-fill"></div>
+                        <span class="btn-text">
+                            <span class="btn-text-inner change">Contact Us</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -83,7 +98,12 @@ include 'include/header.php' ?>
                         for business leaders and executive teams, providing seamless travel to key locations, on your
                         schedule. Access global destinations and exclusive experiences, beginning the moment you board.
                     </p>
-                    <a href="contact.php" class="themeBtn">Contact Us</a>
+                    <a href="contact.php" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                        <div class="btn-fill"></div>
+                        <span class="btn-text">
+                            <span class="btn-text-inner change">Contact Us</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>

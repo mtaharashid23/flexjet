@@ -1,4 +1,5 @@
-<?php include 'include/header.php' ?>
+<?php $title = "About Us";
+include 'include/header.php' ?>
 
 <section class="inner_banner">
     <figure class="inner_banner_img">
@@ -77,46 +78,49 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
-                <div class="row algin-items-center">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="about_content">
                             <h3>About Us</h3>
+                            <h3>From the Desk of the Founder & CEO – Yashik Arora</h3>
+                            <p>Welcome to Air Affair Aviation.</p>
                             <p>
-                                Air Affair is one of India’s leading and most trusted names in personal charter
-                                aviation. With a modern fleet of high-performance jets, we cater to discerning
-                                individuals and elite corporate clients who value exclusivity, time-efficiency, and
-                                luxury in every journey.
+                                Air Affair was born from a vision—to connect continents through excellence in aviation.
+                                As a global aviation entrepreneur and a proud UBC alumnus, I founded Air Affair to build
+                                more than just a business; I set out to create a cross-border aviation platform that
+                                redefines connectivity and opportunity across nations.
                             </p>
                             <p>
-                                Founded with a vision to redefine private air travel in India, Air Affair brings
-                                together a team of highly experienced aviation professionals dedicated to the highest
-                                standards of safety, service, and operational excellence. Our pilots are extensively
-                                trained on the specific aircraft we operate, ensuring each flight is smooth, secure, and
-                                tailored to your needs, from takeoff to touchdown.
-                            </p>
-                            <p>
-                                With operational hubs across major cities like Delhi, Mumbai, and Visakhapatnam, we are
-                                strategically positioned to serve clients across India with prompt, dependable, and
-                                seamless charter services.
+                                With roots in India and envisioned in Canada, Air Affair was created to usher in a new
+                                era of private aviation in India—blending global standards with local insight. Our
+                                journey began with boutique charter and leasing operations in India, where we quickly
+                                earned trust for our personalized service, operational reliability, and safety-first
+                                approach.
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <figure class="about_img">
-                            <img src="images/about-img3.webp" alt="image" class="img-fluid">
+                            <img src="images/about-img.jpeg" alt="image" class="img-fluid">
                         </figure>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
                         <div class="about_content">
-                            <h3>[Your Name], Founder & CEO of Air Affair</h3>
                             <p>
-                                Air Affair was born from a simple idea, to make private aviation not just accessible,
-                                but truly exceptional. Every detail, from the aircraft we choose to the people we hire,
-                                is designed with our clients in mind. Whether you're flying for business or pleasure, we
-                                aim to offer you an experience that is effortless, elegant, and entirely your own.
-                            </p>                            
+                                Today, we are expanding into aircraft leasing, aviation education, and helicopter
+                                operations, with a clear mission: to make premium aviation accessible, aspirational, and
+                                globally competitive for the Indian market. We are also working toward building
+                                international aviation academies to train the next generation of pilots through
+                                industry-integrated programs.
+                            </p>
+                            <p>
+                                Air Affair reflects my personal commitment to professionalism, innovation, and
+                                meaningful impact. Whether you are an investor, aviation partner, or aspiring pilot, I
+                                invite you to be part of our journey as we shape the future of private aviation in
+                                India.
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -135,218 +135,58 @@ html.lenis body {
 	pointer-events: none;
 }
 
-/* ------------------------- Cursor - Normal -------------------------------------------------- */
-
-.custom-cursor-fill,
-.custom-cursor-span {
-	width: 0;
-	height: 0;
-	border-radius: 50%;
-	border: 0;
+/* PRELOADER */
+/* PRELOADER */
+.preloader {
 	position: fixed;
-	z-index: 500;
-	pointer-events: none;
-	transform: translate(-50%, -65%);
-	overflow: hidden;
-	display: block;
-	transition: width 0.4s cubic-bezier(0.36, 0, 0.66, 0),
-		height 0.4s cubic-bezier(0.36, 0, 0.66, 0);
-	left: 0%;
-	top: 0%;
-	will-change: transform, width, height;
-}
-
-.custom-cursor-fill svg {
-	position: relative;
-	width: 100%;
-}
-
-.custom-cursor-fill svg path {
-	fill: var(--color-primary);
-}
-
-.custom-cursor-span .custom-cursor-inner {
-	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100dvh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: 9999999;
 }
 
-.custom-cursor-span span {
-	text-align: center;
-	padding: 0 0.25em;
-	text-transform: uppercase;
-	font-weight: 900;
-	font-size: 1em;
-	font-size: calc(clamp(8em, 14vw, 11em) / 9.5);
-	line-height: 1;
-	color: var(--color-text-light);
-	transition: var(--animation-primary);
-	transform: scale(0) rotate(0.001deg);
-	transition: transform 0.4s cubic-bezier(0.36, 0, 0.66, 0);
-	position: relative;
+.preloader .bar {
+	width: 20vw;
+	height: 100dvh;
+	background: var(--color-primary);
 }
 
-.custom-cursor-span span div {
-	display: block;
-	white-space: nowrap;
-}
-
-/* Cursor - Normal */
-
-.custom-cursor-fill.cursor-normal,
-.custom-cursor-span.cursor-normal {
-	width: calc(clamp(8em, 14vw, 11em) * 0.8);
-	height: calc(clamp(8em, 14vw, 11em) * 0.8);
-	transition: width 0.4s cubic-bezier(0.34, 1.25, 0.64, 1),
-		height 0.4s cubic-bezier(0.34, 1.25, 0.64, 1);
-}
-
-.custom-cursor-fill.cursor-normal.pressed,
-.custom-cursor-span.cursor-normal.pressed {
-	width: calc((clamp(8em, 14vw, 11em) * 0.8) * 1.2);
-	height: calc((clamp(8em, 14vw, 11em) * 0.8) * 1.2);
-}
-
-.custom-cursor-span.cursor-normal .custom-cursor-span-normal span {
-	transform: rotate(0.001deg) scale(0.8);
-	transition: transform 0.4s cubic-bezier(0.34, 1.25, 0.64, 1);
-}
-
-.custom-cursor-fill.cursor-normal.hover,
-.custom-cursor-span.cursor-normal.hover {
-	width: calc(clamp(8em, 14vw, 11em) * 0.6);
-	height: calc(clamp(8em, 14vw, 11em) * 0.6);
-}
-
-.custom-cursor-span.cursor-normal.hover .custom-cursor-span-normal span {
-	transform: scale(0.7) rotate(0.001deg);
-}
-
-/* Cursor - Home Video */
-
-.custom-cursor-fill.cursor-home,
-.custom-cursor-span.cursor-home {
-	width: calc(clamp(8em, 14vw, 11em) * 1.2);
-	height: calc(clamp(8em, 14vw, 11em) * 1.2);
-	transition: width 0.4s cubic-bezier(0.34, 1.25, 0.64, 1),
-		height 0.4s cubic-bezier(0.34, 1.25, 0.64, 1);
-}
-
-.custom-cursor-fill.cursor-home.pressed,
-.custom-cursor-span.cursor-home.pressed {
-	width: calc((clamp(8em, 14vw, 11em) * 1.25) * 1.2);
-	height: calc((clamp(8em, 14vw, 11em) * 1.25) * 1.2);
-}
-
-.custom-cursor-span .custom-cursor-span-home span {
-	padding-bottom: calc((clamp(8em, 14vw, 11em) * 0.025));
-}
-
-.custom-cursor-span.cursor-home .custom-cursor-span-home span {
-	transform: scale(1) rotate(0.001deg);
-	transition: transform 0.4s cubic-bezier(0.34, 1.25, 0.64, 1);
-}
-
-/* Cursor - Close */
-
-.custom-cursor-fill.cursor-close,
-.custom-cursor-span.cursor-close {
-	width: calc(clamp(8em, 14vw, 11em) * 0.5);
-	height: calc(clamp(8em, 14vw, 11em) * 0.5);
-	transition: width 0.4s cubic-bezier(0.34, 1.25, 0.64, 1),
-		height 0.4s cubic-bezier(0.34, 1.25, 0.64, 1);
-	z-index: 1000;
-}
-
-.custom-cursor-fill.cursor-close.pressed,
-.custom-cursor-span.cursor-close.pressed {
-	width: calc((clamp(8em, 14vw, 11em) * 1.25) * 0.5);
-	height: calc((clamp(8em, 14vw, 11em) * 1.25) * 0.5);
-}
-
-.custom-cursor-span.cursor-close .custom-cursor-span-close span {
-	transform: scale(0.7) rotate(0.001deg);
-	transition: transform 0.4s cubic-bezier(0.34, 1.25, 0.64, 1);
-}
-
-.custom-cursor-span .custom-cursor-span-close span svg {
-	width: 100%;
-	position: relative;
-}
-
-/* Cursor - Video */
-
-.custom-cursor-fill.cursor-video,
-.custom-cursor-span.cursor-video {
-	width: calc(clamp(8em, 14vw, 11em) * 0.66);
-	height: calc(clamp(8em, 14vw, 11em) * 0.66);
-	transition: width 0.4s cubic-bezier(0.34, 1.25, 0.64, 1),
-		height 0.4s cubic-bezier(0.34, 1.25, 0.64, 1);
-	z-index: 1000;
-}
-
-.custom-cursor-fill.cursor-video.pressed,
-.custom-cursor-span.cursor-video.pressed {
-	width: calc((clamp(8em, 14vw, 11em) * 1.25) * 0.66);
-	height: calc((clamp(8em, 14vw, 11em) * 1.25) * 0.66);
-}
-
-.custom-cursor-span .custom-cursor-span-video div {
-	width: 22.5%;
-	height: 22.5%;
+.svg-loader {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%) scale(0) rotate(0.001deg);
+	transform: translate(-50%, -50%);
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	width: 230px;
+	height: 230px;
 }
 
-.custom-cursor-span .custom-cursor-span-video div svg {
-	width: 100%;
-	position: relative;
+.loader__plane {
+	fill: var(--color-accent, #f7921e);
+	transform-origin: 115px 115px;
+	animation: loader-spin 1.4s linear infinite;
 }
 
-.custom-cursor-span .custom-cursor-span-video .play svg {
-	transform: translateX(15%);
+.loader__path {
+	stroke: var(--color-text-light);
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 4;
+	transform-origin: 115px 115px;
+	animation: loader-spin 1.4s linear infinite;
 }
 
-.custom-cursor-span .custom-cursor-span-video .play svg path {
-	fill: var(--color-text-light);
-}
-
-.custom-cursor-span .custom-cursor-span-video .pause svg rect {
-	fill: var(--color-primary);
-}
-
-.custom-cursor-span.cursor-video-play .custom-cursor-span-video .play {
-	transform: translate(-50%, -50%) scale(1) rotate(0.001deg);
-}
-
-.custom-cursor-fill.cursor-video-pause svg path {
-	fill: var(--color-text-light);
-	transition: fill 0.15s ease-in-out;
-}
-
-.custom-cursor-span.cursor-video-pause .custom-cursor-span-video .pause {
-	transform: translate(-50%, -50%) scale(1) rotate(0.001deg);
-}
-
-@media screen and (max-width: 1024px) {
-
-	.custom-cursor-fill,
-	.custom-cursor-span {
-		display: none !important;
+@keyframes loader-spin {
+	to {
+		transform: rotate(360deg);
 	}
 }
-
-/* PRELOADER */
 
 /* THEMEBTN */
 .themeBtn {
@@ -422,7 +262,7 @@ html.lenis body {
 
 .header::before {
 	content: "";
-	background: linear-gradient(to bottom, #000000e3, #00000000);
+	background: linear-gradient(to bottom, #00000096, #00000000);
 	position: absolute;
 	width: 100%;
 	height: 140px;
@@ -434,9 +274,11 @@ html.lenis body {
 }
 
 .header-main__logo {
-	width: 160px;
+	width: 140px;
 	padding: 0;
 	margin: 0;
+	position: relative;
+	z-index: 99;
 }
 
 .header-main__logo>img {
@@ -565,9 +407,10 @@ html.lenis body {
 
 .main_banner_content {
 	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
 	width: 100%;
+	bottom: 8%;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .main_banner_content h1 {
@@ -1097,8 +940,12 @@ html.lenis body {
 
 .footer_main {
 	margin-top: 3rem;
-	padding: 2rem 0 0;
+	padding: 2rem 0;
 	border-top: 1px solid #404040;
+}
+
+.footer_main_content p {
+	margin: 0;
 }
 
 .footer_main_nav {
@@ -1106,7 +953,6 @@ html.lenis body {
 }
 
 .footer_main_nav li:not(:last-child) {
-
 	margin-bottom: 1.125rem;
 }
 
@@ -1299,6 +1145,8 @@ html.lenis body {
 
 .logo-white {
 	filter: brightness(0) invert(1);
+	z-index: 99;
+	position: relative;
 }
 
 .about_img img {
@@ -1345,7 +1193,7 @@ html.lenis body {
 
 .flightPopup .modal-dialog {
 
-max-width: 1000px;
+	max-width: 1000px;
 }
 
 .flightPopup .modal-content {
@@ -1452,8 +1300,43 @@ max-width: 1000px;
 	color: var(--color-text-dark);
 }
 
-.header-main__nav{
+.header-main__nav {
 	display: flex;
 	align-items: center;
 	gap: 1.5rem;
+}
+
+.header-main__nav li {
+	z-index: 99;
+}
+
+.privacy_content p a {
+	color: var(--color-accent);
+}
+
+.privacy_content ul li {
+	position: relative;
+	padding-left: 1.75rem;
+}
+
+.privacy_content ul li:not(:last-child) {
+	margin-top: 1rem;
+}
+
+.privacy_content ul li::before {
+	content: "";
+	position: absolute;
+	background: var(--color-accent);
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+}
+
+.privacy_content ul li {
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: #575757cc;
 }

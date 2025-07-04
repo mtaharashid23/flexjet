@@ -3,7 +3,7 @@ include 'include/header.php' ?>
 
 <section class="inner_banner">
     <figure class="inner_banner_img">
-        <img src="images/inner-bg.webp" alt="image" class="img-fluid">
+        <img src="images/new-img.webp" alt="image" class="img-fluid">
     </figure>
     <div class="container">
         <div class="inner_banner_content">
@@ -53,7 +53,12 @@ include 'include/header.php' ?>
                             </div>
                         </li>
                     </ul>
-                    <a href="contact.php" class="themeBtn">Contact Us</a>
+                    <a href="contact.php" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                        <div class="btn-fill"></div>
+                        <span class="btn-text">
+                            <span class="btn-text-inner change">Contact Us</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -83,7 +88,12 @@ include 'include/header.php' ?>
                             </div>
                         </li>
                     </ul>
-                    <a href="contact.php" class="themeBtn">Contact Us</a>
+                    <a href="contact.php" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                        <div class="btn-fill"></div>
+                        <span class="btn-text">
+                            <span class="btn-text-inner change">Contact Us</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -126,7 +136,12 @@ include 'include/header.php' ?>
                             </div>
                         </li>
                     </ul>
-                    <a href="contact.php" class="themeBtn">Contact Us</a>
+                    <a href="contact.php" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                        <div class="btn-fill"></div>
+                        <span class="btn-text">
+                            <span class="btn-text-inner change">Contact Us</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -154,7 +169,12 @@ include 'include/header.php' ?>
                             </div>
                         </li>
                     </ul>
-                    <a href="contact.php" class="themeBtn">Contact Us</a>
+                    <a href="contact.php" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                        <div class="btn-fill"></div>
+                        <span class="btn-text">
+                            <span class="btn-text-inner change">Contact Us</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -196,7 +216,12 @@ include 'include/header.php' ?>
                             </div>
                         </li>
                     </ul>
-                    <a href="contact.php" class="themeBtn">Contact Us</a>
+                    <a href="contact.php" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
+                        <div class="btn-fill"></div>
+                        <span class="btn-text">
+                            <span class="btn-text-inner change">Contact Us</span>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>

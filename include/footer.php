@@ -11,7 +11,12 @@
                     <h4>Stay Connected</h4>
                     <form class="signup_form">
                         <input type="email" placeholder="Enter your email" required>
-                        <button type="submit" class="themeBtn border-0">Get A Quote</button>
+                        <button type="submit" class="themeBtn magnetic border-0" data-strength="25" data-strength-text="15">
+                            <div class="btn-fill"></div>
+                            <span class="btn-text">
+                                <span class="btn-text-inner change">SUBMIT</span>
+                            </span>
+                        </button>                        
                     </form>
                 </div>
             </div>
@@ -29,11 +34,12 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="footer_main_nav">
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="services.php">Services</a></li>
-                        <li><a href="fleet.php">Aircraft</a></li>
-                        <li><a href="programs.php">Programs</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
+                        <li class="magnetic" data-strength="25"><a href="about.php">About Us</a></li>
+                        <li class="magnetic" data-strength="25"><a href="services.php">Services</a></li>
+                        <li class="magnetic" data-strength="25"><a href="fleet.php">Aircraft</a></li>
+                        <li class="magnetic" data-strength="25"><a href="programs.php">Programs</a></li>
+                        <li class="magnetic" data-strength="25"><a href="contact.php">Contact Us</a></li>
+                        <li class="magnetic" data-strength="25"><a href="privacy.php">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>

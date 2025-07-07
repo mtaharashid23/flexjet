@@ -392,7 +392,6 @@ html.lenis body {
 .main_banner {
 	height: 100vh;
 	background: url("../images/new-frame/frame_0001.webp") no-repeat center center/cover;
-	overflow: unset;
 }
 
 .main_banner::before {

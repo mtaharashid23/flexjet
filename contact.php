@@ -26,68 +26,64 @@ include 'include/header.php' ?>
             <form class="contact_form">
                 <div class="row">
                     <div class="col-md-6">
-                        <label for="">First Name*</label>
-                        <input type="text" name="first_name" placeholder="First Name">
+                        <label>First Name*</label>
+                        <input type="text" name="first_name" placeholder="First Name" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="">Last Name*</label>
-                        <input type="text" name="last_name" placeholder="Last Name">
+                        <label>Last Name*</label>
+                        <input type="text" name="last_name" placeholder="Last Name" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="">Email Address *</label>
-                        <input type="email" name="email" placeholder="Email">
+                        <label>Email Address *</label>
+                        <input type="email" name="email" placeholder="Email" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="">Phone Number *</label>
-                        <input type="tel" name="phone" placeholder="Phone">
+                        <label>Phone Number *</label>
+                        <input type="tel" name="phone" placeholder="Phone" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="">Country*</label>
-                        <select id="">
-                            <option value="Select Country">Select Country</option>
-                            <option value="Select Country">Select Country</option>
-                            <option value="Select Country">Select Country</option>
-                            <option value="Select Country">Select Country</option>
+                        <label>Country*</label>
+                        <select name="country" required>
+                            <option value="">Select Country</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Mexico">Mexico</option>
                         </select>
                     </div>
                     <div class="col-md-6">
-                        <label for="">ZIP*</label>
-                        <input type="tel" name="zip" placeholder="ZIP">
+                        <label>ZIP*</label>
+                        <input type="tel" name="zip" placeholder="ZIP" required>
                     </div>
                     <div class="col-md-6">
-                        <label for="">Do you currently fly private?*</label>
-                        <select id="">
-                            <option value="Select an option">Select an option</option>
-                            <option value="Select an option">Select an option</option>
-                            <option value="Select an option">Select an option</option>
-                            <option value="Select an option">Select an option</option>
+                        <label>Do you currently fly private?*</label>
+                        <select name="fly_private" required>
+                            <option value="">Select an option</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
                         </select>
                     </div>
                     <div class="col-md-6">
-                        <label for="">Which program are you interested in*</label>
-                        <select id="">
-                            <option value="Select an option">Select an option</option>
+                        <label>Which program are you interested in*</label>
+                        <select name="program_interest" required>
+                            <option value="">Select an option</option>
                             <option value="Jet Card">Jet Card</option>
-                            <option value="Lease Program">Lease Program</option>
-                            <option value="Fractional Ownership">Fractional Ownership</option>
                             <option value="Aircraft Management">Aircraft Management</option>
+                            <option value="Lease Program">Lease Program</option>
                             <option value="Helicopter Access">Helicopter Access</option>
-                            <option value="Holiday Charter">Holiday Charter</option>
-                            <option value="Corporate Charter">Corporate Charter</option>
+                            <option value="Fractional Ownership">Fractional Ownership</option>
                             <option value="Other">Other</option>
                         </select>
                     </div>
                     <div class="col-md-12">
-                        <label for="">Ask us a question*</label>
-                        <textarea name="question" rows="4" placeholder="Ask us a question"></textarea>
+                        <label>Ask us a question*</label>
+                        <textarea name="question" rows="4" placeholder="Ask us a question" required></textarea>
                     </div>
                     <div class="col-md-12">
                         <button type="submit" class="themeBtn magnetic" data-strength="25" data-strength-text="15">
                             <div class="btn-fill"></div>
-                            <span class="btn-text">
-                                <span class="btn-text-inner change">SUBMIT</span>
-                            </span>
+                            <span class="btn-text"><span class="btn-text-inner change">SUBMIT</span></span>
                         </button>
+                        <div id="contact_formResult" style="display:none;"></div>
                     </div>
                 </div>
             </form>

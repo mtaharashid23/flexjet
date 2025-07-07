@@ -10,13 +10,14 @@
                 <div class="signup">
                     <h4>Stay Connected</h4>
                     <form class="signup_form">
-                        <input type="email" placeholder="Enter your email" required>
+                        <input type="email" placeholder="Enter your email" name="email" required>
                         <button type="submit" class="themeBtn magnetic border-0" data-strength="25" data-strength-text="15">
                             <div class="btn-fill"></div>
                             <span class="btn-text">
                                 <span class="btn-text-inner change">SUBMIT</span>
                             </span>
-                        </button>                        
+                        </button>           
+                        <div id="signup_formResult"></div>
                     </form>
                 </div>
             </div>
@@ -30,6 +31,20 @@
                             service, and complete discretion. Whether it’s a last-minute business flight or a planned
                             escape, we ensure your journey is flawless.
                         </p>
+                        <ul class="socail_icons">
+                            <li>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -67,7 +82,6 @@
 
                 <form id="flightForm">
                     <div id="flightsContainer" class="flights-wrapper mb-3"></div>
-
                     <button type="button" id="addFlightBtn" class="btn mb-4">ADD FLIGHT</button>
 
                     <div class="form-row">
@@ -97,7 +111,7 @@
                         </div>
                         <div class="form-group col-md-6">
                             <label for="phone">Phone</label>
-                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="+44" required>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="+91" required>
                         </div>
                     </div>
 
@@ -129,7 +143,7 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="referral">How did you hear about VistaJet?</label>
+                        <label for="referral">How did you hear about Air Affair?</label>
                         <select class="form-control" id="referral" name="referral">
                             <option>-- select --</option>
                             <option>Google</option>
@@ -149,10 +163,11 @@
 
                     <p class="text-muted small">
                         By submitting this form, you agree to the processing of your personal information in line with
-                        the Air Affair <a href="">Privacy Policy</a>.
+                        the Air Affair <a href="privacy.php">Privacy Policy</a>.
                     </p>
 
                     <button type="submit" class="submit-button">REQUEST FLIGHT</button>
+                    <div id="flightFormResult"></div>
                 </form>
             </div>
         </div>

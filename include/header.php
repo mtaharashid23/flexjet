@@ -6,7 +6,7 @@
     <title><?php echo isset($title) ? $title : 'Home';?> | Air Affair</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include 'include/css.php'; ?>
+    <?php include 'include/css.php'; ?>         
 </head>
 
 <body>
@@ -28,13 +28,13 @@
                         </button>
                     </li>
                     <li>
-                        <a href="" data-toggle="modal" data-target="#flightModal" class="themeBtn magnetic" data-strength="25"
-                            data-strength-text="15">
+                        <a href="" data-toggle="modal" data-target="#flightModal" class="themeBtn magnetic"
+                            data-strength="25" data-strength-text="15">
                             <div class="btn-fill"></div>
                             <span class="btn-text">
                                 <span class="btn-text-inner change">Request a quote</span>
                             </span>
-                        </a>                        
+                        </a>
                     </li>
                 </ul>
             </nav>

@@ -335,6 +335,14 @@
 	.footer_logo>img {
 		width: 140px;
 	}
+
+	.fleet_content h3 {
+		font-size: 2.5rem;
+	}
+
+	.contact_wrapper {		
+		padding: 2em;
+	}
 }
 
 @media (max-width: 767.98px) {
@@ -450,6 +458,19 @@
 
 	.inner_banner_content h1 {
 		font-size: 3rem;
+	}
+
+	.socail_icons {
+		margin: 1.5rem 0;
+	}
+
+	.socail_icons li a {
+		width: 32px;
+	}
+
+	figure.programs_img,
+	figure.fleet_img {
+		margin-bottom: 1.5rem;
 	}
 }
 

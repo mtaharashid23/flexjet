@@ -1310,6 +1310,11 @@ html.lenis body {
 	z-index: 99;
 }
 
+.privacy_content h3 {
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
 .privacy_content p a {
 	color: var(--color-accent);
 }
@@ -1317,9 +1322,6 @@ html.lenis body {
 .privacy_content ul li {
 	position: relative;
 	padding-left: 1.75rem;
-}
-
-.privacy_content ul li:not(:last-child) {
 	margin-top: 1rem;
 }
 
@@ -1339,4 +1341,31 @@ html.lenis body {
 	font-size: 1.25rem;
 	font-weight: 500;
 	color: #575757cc;
+}
+
+.socail_icons {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin: 1.5rem 0 0;
+}
+
+.socail_icons li a {
+	width: 40px;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	background: transparent;
+	border: 1px solid var(--white);
+	color: var(--color-text-light);
+}
+
+.socail_icons li a i {
+	color: var(--color-text-light);
+}
+
+label.error {
+    color: #ff0000;
+    margin: 0 0 1.25rem;
 }
